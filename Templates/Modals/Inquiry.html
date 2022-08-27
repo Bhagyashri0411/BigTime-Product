@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="./Templates/Modals/Modals.css">
+<script src="./Templates/Modals/Inquiry.js"></script>
+<script src="./Templates/Modals/Header.js"></script>
+
+<div class="col-md-12">
+    <div class="container">
+        <div class="modalcss" id="openmodel" style="display: none;">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="colsebtn">
+                            <button id="adduserclose" class="btnstyle" onclick="closediv()">&times;</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="header-model">
+                    <div class="header-title">
+                        <div id="messhow" style="display: none;">
+                            <p id="messages"></p>
+                        </div>
+                        <div class="headertitle">
+                            <h4>Get in touCH with us</h4>
+                        </div>
+
+                        <form action="./Templates/Modals/Inquiry.php" method="POST"  name="form1">
+                        <div class="error-text">Error</div>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="text" name="username" placeholder="Your Full Name" class="input-style"
+                                        id="usertextfield" required>
+                                </div>
+                                <!-- <p class="alertText" id="textuser">Please Enter Your Full Name</p> -->
+                            </div>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="text" name="usermail" placeholder="Your E-mail Address" class="input-style"
+                                        id="usermailfield" required>
+                                </div>
+                                <!-- <p class="alertText" id="mailuser">Please Enter Your E-mail Address</p> -->
+                            </div>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="number" name="usermobile" placeholder="Your Mobile Number" class="input-style"
+                                        id="usermobilefield" required>
+                                </div>
+                                <!-- <p class="alertText" id="mobileuser">Please Enter Your Mobile Number</p> -->
+                            </div>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <textarea class="input-style" name="usermessage" placeholder="Message"
+                                        id="usermesfield" required></textarea>
+                                </div>
+                                <!-- <p class="alertText" id="messuser">Please Enter Message</p> -->
+                            </div>
+                            <div class="sumbit">
+                                <td><input type="submit" name="Submit" value="Add"></td>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

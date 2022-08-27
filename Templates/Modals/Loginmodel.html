@@ -1,0 +1,50 @@
+<!-- MODEL OF LOGIN -->
+<link rel="stylesheet" href="./Templates/Modals/Modals.css">
+<script src="./Templates/Modals/Header.js"></script>
+
+<div class="col-md-12">
+    <div class="container">
+        <div class="modalcss" id="openloginmodel" style="display: none;">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="colsebtn">
+                            <button id="adduserclose" class="btnstyle" onclick="closelogindiv()">&times;</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="header-model">
+                    <div class="header-title">
+                        <div id="messhow">
+                            <p id="messages"></p>
+                        </div>
+                        <div class="headertitle">
+                            <h4>Get in touCH with us</h4>
+                        </div>
+
+                        <form id="resetourdata">
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="text" placeholder="Enter Your Username" class="input-style" id="a">
+                                </div>
+                                <!-- <p class="alertText" id="textuser">Please Enter Your Full Name</p> -->
+                            </div>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="text" placeholder="Enter Your Password" class="input-style" id="b">
+                                </div>
+                                <!-- <p class="alertText" id="mailuser">Please Enter Your E-mail Address</p> -->
+                            </div>
+                        </form>
+                        <div>
+                            <button class="btnstyle" onclick="usersubdata()">Log In</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End MODEL OF LOGIN -->

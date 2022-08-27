@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="./Templates/Modals/Modals.css">
+<script src="./Templates/Modals/Header.js"></script>
+
+<div class="col-md-12">
+    <div class="container">
+        <div class="modalcss" id="openservermodel" style="display: none;">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="colsebtn">
+                            <button class="btnstyle" onclick="closeserverdiv()">&times;</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="header-model">
+                    <div class="header-title">
+                        <div id="startmesshow">
+                            <p id="startmess"></p>
+                        </div>
+                        <div class="headertitle">
+                            <h4> Start A Project</h4>
+                        </div>
+
+                        <form id="startprojectdetails">
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="text" placeholder="Your Company name" class="input-style"
+                                        id="projecttextfield">
+                                </div>
+                            </div>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="text" placeholder="Your Company E-mail Address" class="input-style"
+                                        id="projectmailfield">
+                                </div>
+                            </div>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <input type="number" placeholder="Your Company Mobile number" class="input-style"
+                                        id="projectmobilefield">
+                                </div>
+                            </div>
+                            <div class="quform-spacer" style="display: flex;">
+                                <div class="inputstyle" style="margin-right: 10px;">
+                                    <textarea class="input-style" placeholder="Project Name"
+                                        id="projectnamefield"></textarea>
+                                </div>
+                                <div class="inputstyle" style="margin-left: 10px;">
+                                    <textarea class="input-style" placeholder="Project Description"
+                                        id="projectmesfield"></textarea>
+                                </div>
+                            </div>
+                        </form>
+                        <div>
+                            <button class="btnstyle" onclick="startsubdata()">SUMBIT</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

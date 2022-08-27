@@ -1,0 +1,123 @@
+/* Model Css */
+.modalcss {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    /* display: none; */
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.modalcss .modal-content {
+    box-shadow: 0px 4px 18px 0px rgb(0 0 0 / 15%);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin:90px auto;
+    padding: 45px 45px 45px 45px;
+    max-width: 560px;
+    background-color: #FFFFFF;
+    border-radius: 0;
+}
+.header-title{
+    /* margin-bottom: 20px; */
+    text-align: center;
+    width: 100%;
+}
+.headertitle{
+    margin-bottom: 20px;
+    padding: 0px 0px 15px 0px;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;    
+}
+.headertitle::after{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 32, 75);
+}
+.headertitle h4{
+    color: rgb(0, 32, 75);
+    padding: 0;
+    margin: 10px 0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+.inputstyle{
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    margin: 0 0 3px 0;
+    zoom: 1;
+
+}
+.input-style{
+    border: none;
+    height: 50px;
+    padding: 0;
+outline: none;
+    -webkit-appearance: none;
+    display: block;
+    margin: 0;
+    min-width: 10px;
+    max-width: 100%;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 1em;
+}
+.quform-spacer{
+    padding: 0 0 15px 0;
+    margin: 0 0 5px 0;
+}
+.inputstyle::after{
+    border: 0;
+}
+.inputstyle{
+    border-bottom: solid 1px #e5e5e6;
+}
+
+.inputstyle::before
+{
+    content: " ";
+    display: table;
+    border: 0;
+}
+.btnstyle{
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background-color: rgb(0, 32, 75);
+    border: rgb(0, 32, 75);
+    box-shadow: 0px 4px 33px 0px rgb(0 0 86 / 28%);
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 16px 20px 16px 20px;
+}
+.colsebtn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.colsebtn .btnstyle{
+    padding: 5px 10px;
+    margin-top: 0;
+    font-size: 15px;
+    width: auto;
+}
+@media (max-width: 768px) {
+    .headertitle {
+        margin-bottom: 20px;
+    }
+}
+
+/* End */
