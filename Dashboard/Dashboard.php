@@ -1,6 +1,6 @@
 
 <?php
-include_once("./../Php/config.php");
+include_once("./../php/config.php");
 
 $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // using mysqli_query instead
 ?>

@@ -7,7 +7,7 @@ function opendiv() {
 function openserverdiv() {
   document.getElementById('openservermodel').style.display = "block"
 }
-function closeserverdiv(){
+function closeserverdiv() {
   document.getElementById('openservermodel').style.display = "none"
 }
 
@@ -38,4 +38,14 @@ function usersubdata() {
   // else {
   //   alert("hello")
   // }
+}
+
+function menulist() {
+var a =  document.getElementsByClassName('header-right')[0].style.display;
+if (a == "block") {
+  document.getElementsByClassName('header-right')[0].style.display ="none";
+}
+else{
+  document.getElementsByClassName('header-right')[0].style.display ="block";
+}
 }
