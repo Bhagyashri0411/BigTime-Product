@@ -1,19 +1,35 @@
 <link rel="stylesheet" href="./Templates/Header.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="./Templates/Header.js"></script>
 
-<header class="header">
-    <nav class="navbar">
+
+
+<div class="header">
+    <div class="menucard">
+        <div class="bigtime" id="bigtime"> </div>
+        <i style="font-size:24px" class="fa" onclick="menulist()">&#xf0c9;</i>
+
+    </div>
+    <div class="header-right">
+        <a href="#">Services</a>
+        <a> <span class="nav-link" onclick="opendiv()">Contact</span></a>
+        <a> <span class="nav-link" onclick="openserverdiv()">Start A Projects</span></a>
+        <a>     <button class="btnstyle" onclick="logindiv()">Log In</button></a>
+    </div>
+
+</div>
+
+
+<!-- <header class="header"> -->
+<!-- <nav class="navbar">
         <div class="container-fluid">
             <div class="col-md-12">
                 <div class="bigtime" id="bigtime">
 
                 </div>
-                <ul class="nav-menu active">
+                <ul class="nav-menu" id="leftstyle">
                     <li class="nav-item">
                         <div class="nav-link">Services</div>
-                    </li>
-                    <li class="nav-item">
-                        <span class="nav-link">Careers</span>
                     </li>
                     <li class="nav-item">
                         <span class="nav-link" onclick="opendiv()">Contact</span>
@@ -25,16 +41,23 @@
                         <button class="btnstyle" onclick="logindiv()">Log In</button>
                     </li>
                 </ul>
-                <div class="hamburger" id="mobile-menu">
+                <div class="hamburger" onclick="mobilemenu()">
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
-
-</header>
-
-
+<!-- <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</header> -->

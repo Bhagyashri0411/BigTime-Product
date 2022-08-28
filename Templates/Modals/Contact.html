@@ -22,39 +22,40 @@
                             <h4> Start A Project</h4>
                         </div>
 
-                        <form id="startprojectdetails">
+                        <form action="./Templates/Modals/Contact.php" method="POST">
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="text" placeholder="Your Company name" class="input-style"
+                                    <input type="text" placeholder="Your Company name" name="comname" class="input-style"
                                         id="projecttextfield">
                                 </div>
                             </div>
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="text" placeholder="Your Company E-mail Address" class="input-style"
+                                    <input type="text" placeholder="Your Company E-mail Address" name="comemail" class="input-style"
                                         id="projectmailfield">
                                 </div>
                             </div>
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="number" placeholder="Your Company Mobile number" class="input-style"
+                                    <input type="number" placeholder="Your Company Mobile number" name="comnumber" class="input-style"
                                         id="projectmobilefield">
                                 </div>
                             </div>
                             <div class="quform-spacer" style="display: flex;">
                                 <div class="inputstyle" style="margin-right: 10px;">
                                     <textarea class="input-style" placeholder="Project Name"
-                                        id="projectnamefield"></textarea>
+                                        id="projectnamefield" name="projectname"></textarea>
                                 </div>
                                 <div class="inputstyle" style="margin-left: 10px;">
                                     <textarea class="input-style" placeholder="Project Description"
-                                        id="projectmesfield"></textarea>
+                                        id="projectmesfield" name="projectdetails"></textarea>
                                 </div>
                             </div>
+                            <div class="sumbit">
+                                <input type="submit" name="ContactSubmit" value="Sumbit">
+                            </div>
                         </form>
-                        <div>
-                            <button class="btnstyle" onclick="startsubdata()">SUMBIT</button>
-                        </div>
+                       
                     </div>
                 </div>
 

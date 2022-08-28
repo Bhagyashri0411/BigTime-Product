@@ -6,9 +6,9 @@
 <body>
 <?php
 //including the database connection file
-include_once("./../../Php/config.php");
+include_once("./../../php/config.php");
 
-if(isset($_POST['Submit'])) {	
+if(isset($_POST['AddSubmit'])) {	
 	$username = mysqli_real_escape_string($mysqli, $_POST['username']);
 
 	$usermail = mysqli_real_escape_string($mysqli, $_POST['usermail']);
