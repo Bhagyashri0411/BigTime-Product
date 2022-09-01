@@ -1,14 +1,9 @@
-<html>
-<head>
-	<title>Add Data</title>
-</head>
-
-<body>
 <?php
 //including the database connection file
+session_start();
 include_once("./../../php/config.php");
 
-if(isset($_POST['AddSubmit'])) {	
+// if(isset($_POST['AddSubmit'])) {	
 	$username = mysqli_real_escape_string($mysqli, $_POST['username']);
 
 	$usermail = mysqli_real_escape_string($mysqli, $_POST['usermail']);
@@ -43,10 +38,8 @@ if(isset($_POST['AddSubmit'])) {
 		$result = mysqli_query($mysqli, "INSERT INTO inquiry(username,usermobile,usermail,usermessage) VALUES('$username','$usermobile','$usermail', '$usermessage')");
 		
 		//display success message
-		echo "<font color='green'>Data added successfully.";
+		echo "Data added successfully.";
 		// echo "<br/><a href='./../../Dashboard/Dashboard.php'>View Result</a>";
 	}
-}
+// }
 ?>
-</body>
-</html>
