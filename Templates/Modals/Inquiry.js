@@ -1,39 +1,50 @@
 // // Main Code
 
-// const form = document.querySelector('.header-model form'),
-// submitbtn = form.querySelector('.sumbit input'),
-// errortxt = form.querySelector('.error-text');
+const form = document.querySelector('.header-model form'),
+    submitbtn = form.querySelector('.sumbit input'),
+    errortxt = form.querySelector('.error-text');
 
-// form.onsumbit = (e) => {
-//     e.preventDefault();
-// }
+form.onsumbit = (e) => {
+    e.preventDefault();
+}
 
-// submitbtn.onclick = () => {
-//     //start 
+submitbtn.onclick = () => {
+    //start 
 
-//     let xhr = new XMLHttpRequest(); //create xml object
-//     xhr.open("POST", "./Php/maininquiry.php" , true);
-//     xhr.onload = () =>{
-//         if(xhr.readyState === XMLHttpRequest.DONE){
-//             if(xhr.status == 200) {
-//                 let data = xhr.response;
-//                 if(data == "Success"){
-//                    alert('Successs')
-//                 }
-//                 else{
-//                     errortxt.textContent = data;
-//                     errortxt.style.display = 'block';
-//                 }
-//             }
-//         }
-//     }
+    let xhr = new XMLHttpRequest(); //create xml object
+    xhr.open("POST", "./Templates/Modals/Inquiry.php", true);
+    xhr.onload = () => {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status == 200) {
+                let data = xhr.response;
+                if (data == "Data added successfully.") {
+                    document.getElementById('flip-card-btn-turn-to-back').style.visibility = 'visible';
+                    document.getElementById('flip-card-btn-turn-to-front').style.visibility = 'visible';
+                    document.getElementById('flip-card').classList.toggle('do-flip');
+                
+                }
+                else {
+                    errortxt.textContent = data;
+                    errortxt.style.display = 'block';
+                }
+            }
+        }
+    }
 
-//     // send this through ajax
-//     let formData = new FormData(form);
-//     xhr.send(formData);
-// }
+    // send this through ajax
+    let formData = new FormData(form);
+    xhr.send(formData);
+}
 
+// document.getElementById('flip-card-btn-turn-to-back').onclick = function () {
+//     document.getElementById('flip-card').classList.toggle('do-flip');
+// };
 
+function changeflip() {
+    document.getElementById('openmodel').style.display = "none";
+    document.getElementById('flip-card').classList.toggle('do-flip');
+    document.getElementById('resetdata').reset();
+};
 
 
 
