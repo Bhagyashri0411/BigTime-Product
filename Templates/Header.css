@@ -38,22 +38,26 @@ a {
     overflow: hidden;
     padding: 10px;
   }
-  
-  .header a {
+
+  .header .header-right a {
     float: left;
     color: black;
     text-align: center;
     cursor:pointer;
-    padding: 12px 25px;
+    padding: 13px 25px;
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
+    margin: 0 8px;
     border-radius: 4px;
   }
   
-  .header a.logo {
+  .header .header-right a.logo {
     font-size: 25px;
     font-weight: bold;
+  }
+  .header .header-right a:last-child{
+    padding: inherit;
   }
   
   .header a:hover {
