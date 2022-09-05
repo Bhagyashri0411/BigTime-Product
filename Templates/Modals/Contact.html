@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="./Templates/Modals/Modals.css">
-<script src="./Templates/Modals/Header.js"></script>
+<script src="./Templates/Modals/Contact.js"></script>
+<script src="./Templates/Header.js"></script>
 
 <div class="col-md-12">
     <div class="container">
@@ -13,7 +14,7 @@
 
                     </div>
                 </div>
-                <div class="header-model">
+                <div class="header-model new">
                     <div class="header-title">
                         <div id="startmesshow">
                             <p id="startmess"></p>
@@ -22,7 +23,7 @@
                             <h4> Start A Project</h4>
                         </div>
 
-                        <form action="./Templates/Modals/Contact.php" method="POST">
+                        <form action="" method="POST" enctype="multipart/form-data" id="resetconn">
                             <div class="quform-spacer">
                                 <div class="inputstyle">
                                     <input type="text" placeholder="Your Company name" name="comname" class="input-style"
@@ -52,13 +53,13 @@
                                 </div>
                             </div>
                             <div class="sumbit">
-                                <input class="btnstyle" type="submit" name="ContactSubmit" value="Sumbit">
+                                <input class="btnstyle" type="button" name="ContactSubmit" value="Sumbit" onclick="FunStart()">
                             </div>
                         </form>
                        
                     </div>
                 </div>
-
+                <div id="toast"><div id="img"> </div><div id="desc">Your Information is Successfully added...</div></div>
             </div>
         </div>
     </div>

@@ -1,16 +1,10 @@
-<html>
-<head>
-	<title>Sumbit Data</title>
-</head>
-
-<body>
 <?php
 //including the database connection file
+session_start();
 include_once("./../../php/config.php");
 
-if(isset($_POST['ContactSubmit'])) {	
+// if(isset($_POST['ContactSubmit'])) {	
 	$comname = mysqli_real_escape_string($mysqli, $_POST['comname']);
-
 	$comemail = mysqli_real_escape_string($mysqli, $_POST['comemail']);
 	$comnumber = mysqli_real_escape_string($mysqli, $_POST['comnumber']);
 	$projectname = mysqli_real_escape_string($mysqli, $_POST['projectname']);
@@ -45,13 +39,11 @@ if(isset($_POST['ContactSubmit'])) {
 		// if all the fields are filled (not empty) 
 			
 		//insert data to database	
-		$result = mysqli_query($mysqli, "INSERT INTO startaproject(comname,comemail,comnumber,projectname,projectdetails) VALUES('$comname','$comemail','$comnumber','$projectname','$projectdetails')");
+		$resultconn = mysqli_query($mysqli, "INSERT INTO startaproject(comname,comemail,comnumber,projectname,projectdetails) VALUES('$comname','$comemail','$comnumber','$projectname','$projectdetails')");
 		
 		//display success message
-		echo "<font color='green'>Your Information is Successfully added.";
+		echo "Your Information is Successfully added.";
 		// echo "<br/><a href='./../../Dashboard/Dashboard.php'>View Result</a>";
 	}
-}
+// }
 ?>
-</body>
-</html>

@@ -23,8 +23,8 @@
 .about-content h2 {
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 38px;
-    text-align: end;
+    font-size: 34px;
+    text-align: start;
     color: #144070;
 }
 .about-content h3 {
@@ -55,7 +55,7 @@
 }
 .banner {
     width: 100%;
-    height: calc(100vh - 200px);
+    height: 100vh;
   
 }
 .curved-div svg {
