@@ -1,6 +1,6 @@
 // // Main Code
 
-const form = document.querySelector('.header-model form'),
+var form = document.querySelector('.header-model form'),
     submitbtn = form.querySelector('.sumbit input'),
     errortxt = form.querySelector('.error-text');
 
