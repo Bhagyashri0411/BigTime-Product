@@ -121,55 +121,14 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
             <div class="row">
                 <div class="mainnav">
                     <div class="profile">
-                        <img class="profile-image" src="https://picsum.photos/200/200?random=1">
-                        <p class="profile-name">Lorem ipsum</p>
+                        <img class="profile-image" src="./../images/btlogo.jpg">
+                        <p class="profile-name">Harsh Sir</p>
                     </div>
                 </div>
             </div>
         </div>
         <section class="bodydiv">
-            <div class="col-md-12">
-                <div class="col-md-4">
-                    <div class="card total1">
-
-                        <div class="info-detail">
-                            <h3>All Students</h3>
-                            <h4>1,873,250</h4>
-
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card total2">
-
-                        <div class="info-detail">
-                            <h3>Experience Students</h3>
-
-                            <h4>1o,890</h4>
-
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card total3">
-
-                        <div class="info-detail">
-                            <h3>Fresher Students</h3>
-
-                            <h4>1o,890</h4>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <br><br>
-
-
-            <div class="col-md-12 bodydiv">
+                      <div class="col-md-12">
                 <div class="col-md-12">
                     <div class="card" style="background-color: #fff;">
                     <table>
@@ -178,7 +137,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
 					    <th>Name</th>
 		                <th>Email</th>
 		                <th>Mob.No</th>
-		                <th>Update</th>
+		                <th>Messages</th>
 	                </tr>
 	            <?php 
 	

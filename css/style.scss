@@ -1,0 +1,440 @@
+$mainblue :rgb(12, 60, 96);
+$white: rgb(255, 255, 255);
+// $shadowbox :0  0 4px 8px rgb(0 0 0 / 12%);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+header {
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: $mainblue;
+}
+
+.header {
+    .menucard {
+        display: block;
+
+        i {
+            display: none;
+            cursor: pointer;
+        }
+    }
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-right {
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+
+    a,  a:hover, .header-right div {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        cursor: pointer;
+        margin: 0 12px;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 25px;
+        border-radius: 4px;
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+    }
+
+    .header-right div {
+        display: flex;
+        align-items: center;
+
+        i {
+            font-size: 17px;
+            margin-right: 8px;
+        }
+    }
+}
+
+
+
+li {
+    list-style: none;
+}
+
+.bigtime {
+    font-size: 25px;
+    float: left;
+    background: url('./../images/logo.jpg'), no-repeat;
+    height: 2.5em;
+    width: 7em;
+    background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: block;
+    }
+
+    .menucard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .menucard i {
+        display: block;
+    }
+
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        display: none;
+        float: none;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.curved-div {
+    background-image: linear-gradient(rgba(85, 85, 85, 0.75), rgba(54, 54, 54, 0.75)), url('./../images/background-bigtime.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.secondiv {
+    background: $white;
+    color: $mainblue;
+    width: 50%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.content p {
+    margin: 50px auto;
+    font-weight: 100;
+    word-spacing: 3px;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 32px;
+}
+
+.button {
+    width: auto;
+    padding: 15px 25px;
+    text-align: center;
+    font-weight: bold;
+    border: 1.5px solid $mainblue;
+    background: transparent;
+    color: $mainblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.services {
+    padding: 60px 0;
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px dashed rgba(0, 0, 0, 0.8);
+        padding: 50px 20px;
+        font-size: 30px;
+        text-align: center;
+
+        h3 {
+            font-size: 29px;
+            text-transform: uppercase;
+            color: $mainblue;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+.about {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(250, 250, 250, 0.4)), url('./../images/aboutback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0;
+
+    h3 {
+        font-size: 29px;
+        text-align: center;
+        margin: 50px 0;
+        text-transform: uppercase;
+        color: $mainblue;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+.clients {
+    h3 {
+        font-size: 29px;
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        color: $mainblue;
+        font-weight: bold;
+
+    }
+
+    padding: 60px 0;
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+    }
+
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px dashed rgba(0, 0, 0, 0.8);
+        padding: 0 20px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h3 {
+            font-size: 29px;
+            text-transform: uppercase;
+            color: $mainblue;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+.fist {
+    min-height: 600px;
+    height: 600px;
+    background-color: #000;
+    position: relative;
+    width: 100%;
+    z-index: 0 !important;
+
+    .second {
+        float: left;
+        position: relative;
+        width: 100% !important;
+    }
+
+    .imgdiv {
+        min-height: 600px;
+        width: 33.33%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        float: left;
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            width: 100% !important;
+            border-width: 0;
+            display: block;
+            border: none;
+            outline: 0;
+            border-style: none;
+            outline-width: 0;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .imgdiv:hover .HPServicesDesc {
+        visibility: visible;
+        top: 35%;
+        opacity: 1;
+    }
+
+    .imgdiv:hover .main {
+        top: 50px;
+    }
+
+    .HPServicesDescPd {
+        padding: 0 15px;
+    }
+
+    .main svg {
+        width: 5em;
+        height: 3em;
+        margin-bottom: 15px;
+        fill: #fff;
+    }
+}
+
+
+.techclass {
+    padding: 30px 0;
+    background-color: #f9f9f9;
+}
+
+.clintheading {
+
+    h2 {
+        margin: 20px 0;
+    }
+
+    ul li.ChipList_partion {
+        margin-bottom: 4.8rem;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: inherit;
+            margin: 0 0 0.5em;
+        }
+
+        ul.Chip_root {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                max-width: 19em;
+                flex-basis: 26em;
+
+                a {
+                    position: relative;
+                    display: inline-flex;
+                    align-items: center;
+                    width: calc(100% - 1em);
+                    padding: 1rem;
+                    margin: 0.8rem;
+                    font-size: 16px;
+                    color: #41bfad;
+                    background-color: #fff;
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, .078);
+                    border-radius: 8px;
+                    border: 1px solid #eee;
+
+                    .Chip_icon__RoOgc {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        height: 2.2rem;
+                        width: 2.2rem;
+                        margin-right: 0.8rem;
+
+                        .iconstule {
+                            box-sizing: border-box;
+                            display: inline-block;
+                            overflow: hidden;
+                            width: 28px;
+                            height: 28px;
+                            background: none;
+                            opacity: 1;
+                            border: 0px;
+                            margin: 0px;
+                            padding: 0px;
+                            position: relative;
+
+                            .imgstule {
+                                position: absolute;
+                                inset: 0px;
+                                box-sizing: border-box;
+                                padding: 0px;
+                                border: none;
+                                margin: auto;
+                                display: block;
+                                width: 0px;
+                                height: 0px;
+                                min-width: 100%;
+                                max-width: 100%;
+                                min-height: 100%;
+                                max-height: 100%;
+                            }
+                        }
+                    }
+
+                    .Chip_text {
+                        position: relative;
+                        color: #444;
+                        ;
+                        line-height: 1.3;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+
+                    }
+
+                    i {
+                        opacity: 1;
+                        position: absolute;
+                        right: 1.2rem;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font-size: 1.2rem;
+                        color: #444;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+.startups-logo {
+    h4 {
+        font-size: 29px;
+        text-align: center;
+        margin: 20px 0;
+        text-transform: uppercase;
+        color: #0c3c60;
+        font-weight: bold;
+    }
+}
+
+.slideshow-container {
+    .itemdata {
+        line-height: 40px;
+        font-style: italic;
+        text-decoration: double;
+        text-align: center;
+        font-size: 21px;
+        padding: 50px 100px;
+    }
+
+}
+.aboutdiv{
+    padding: 50px 0;
+}

@@ -13,25 +13,10 @@ include_once("./../../php/config.php");
 	// checking empty fields
 	if(empty($username) || empty($usermobile) || empty($usermail)  || empty($usermessage)) {
 				
-		if(empty($username)) {
-			echo "<font color='red'>username field is empty.</font><br/>";
-		}
-		
-		if(empty($usermobile)) {
-			echo "<font color='red'>Age field is empty.</font><br/>";
-		}
-		
-		if(empty($usermail)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
-		}
+	
+			echo "Please Fill the follwing infomation";
 
-		if(empty($usermessage)) {
-			echo "<font color='red'>Email field is empty.</font><br/>";
-		}
-		
-		//link to the previous page
-		echo "<br/><a href='javascript:self.history.back();'>Go Back</a>";
-	} else { 
+			} else { 
 		// if all the fields are filled (not empty) 
 			
 		//insert data to database	

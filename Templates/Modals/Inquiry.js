@@ -2,7 +2,7 @@
 
 var form = document.querySelector('.header-model form'),
     submitbtn = form.querySelector('.sumbit input'),
-    errortxt = form.querySelector('.error-text');
+    errortxt = document.querySelector('.error-text');
 
 form.onsumbit = (e) => {
     e.preventDefault();
@@ -21,7 +21,7 @@ submitbtn.onclick = () => {
                     document.getElementById('flip-card-btn-turn-to-back').style.visibility = 'visible';
                     document.getElementById('flip-card-btn-turn-to-front').style.visibility = 'visible';
                     document.getElementById('flip-card').classList.toggle('do-flip');
-                
+                    document.getElementById('resetdata').reset();
                 }
                 else {
                     errortxt.textContent = data;

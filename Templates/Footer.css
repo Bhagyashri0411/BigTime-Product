@@ -1,0 +1,73 @@
+.footer-area {
+    background-color: #dddddd;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer-widget {
+    margin-bottom: 30px;
+}
+.footer-widget .footer-logo {
+    margin-bottom: 30px;
+}
+.footer-widget p {
+    margin-bottom: 20px;
+    color: rgb(12, 60, 96);
+    font-size: 16px;
+}
+.bx{
+    font-size: 36px;
+}
+.footer-widget .social-link {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.footer-widget .social-link li {
+    display: flex;
+    margin:0 5px;
+}
+.footer-widget .social-link li a {
+    border-radius: 3px;
+    color: rgb(12, 60, 96);
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+.footer-widget h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: rgb(12, 60, 96);
+    margin-bottom: 30px;
+}
+.footer-widget .footer-list li {
+    display: block;
+    color: rgb(12, 60, 96);
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.footer-widget .footer-list-two li {
+    display: block;
+    color: rgb(12, 60, 96);
+    margin-bottom: 7px;
+    font-size: 16px;
+    position: relative;
+    padding-left: 30px;
+}
+.footer-widget .footer-list-two li i {
+    color: rgb(12, 60, 96);
+    margin-right: 5px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 20px;
+}
