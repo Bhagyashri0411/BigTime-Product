@@ -16,7 +16,7 @@ header {
 
 .header {
     .menucard {
-        display: block;
+        // display: block;
 
         i {
             display: none;
@@ -34,7 +34,7 @@ header {
         align-items: center;
     }
 
-    a,  a:hover, .header-right div {
+    a,  a:hover, .header-right div:last-child {
         color: rgb(255, 255, 255);
         text-align: center;
         cursor: pointer;
@@ -51,7 +51,7 @@ header {
 
     }
 
-    .header-right div {
+    .header-right div:last-child {
         display: flex;
         align-items: center;
 
@@ -78,8 +78,16 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+    .third-box:first-child{
+        margin-bottom: 30px;
+    }
+   
     .header {
         display: block;
+        .header-right {
+            display: none;
+            float: none;
+        }
     }
 
     .menucard {
@@ -94,14 +102,11 @@ li {
 
     .header a {
         float: none;
-        display: block;
+        // display: block;
         text-align: left;
     }
 
-    .header-right {
-        display: none;
-        float: none;
-    }
+   
 }
 
 .banner {
@@ -437,4 +442,32 @@ li {
 }
 .aboutdiv{
     padding: 50px 0;
+}
+@media screen and (max-width: 1199px) {
+    .clients .grid-container{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:888px) {
+    .clients .grid-container{
+        grid-template-columns: auto auto;
+    }
+  
+    .secondiv{
+        width: 75%;
+    }
+    .content p{
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width:450px) {
+    .services .grid-container{
+        grid-template-columns: auto;
+    }
+    .clintheading ul li.ChipList_partion ul.Chip_root li{
+        max-width: 25em;
+        flex-basis: 28em;
+    }
 }

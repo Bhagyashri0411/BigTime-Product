@@ -701,3 +701,16 @@ td {
 .mySlides{
     display: none;
 }
+@media screen and (max-width:850px){
+    .fist .imgdiv{
+        width: 100%;
+    }
+    .available-list, .available-list-tech {
+        display: block;
+    }
+    .available-list.list li {
+        width: 100% ;
+        justify-content: center;
+        
+    }
+}

@@ -25,10 +25,6 @@ header {
           align-items: center;
 }
 
-.header .menucard {
-  display: block;
-}
-
 .header .menucard i {
   display: none;
   cursor: pointer;
@@ -44,7 +40,7 @@ header {
           align-items: center;
 }
 
-.header a, .header a:hover, .header .header-right div {
+.header a, .header a:hover, .header .header-right div:last-child {
   color: white;
   text-align: center;
   cursor: pointer;
@@ -55,12 +51,12 @@ header {
   border-radius: 4px;
 }
 
-.header a .logo, .header a:hover .logo, .header .header-right div .logo {
+.header a .logo, .header a:hover .logo, .header .header-right div:last-child .logo {
   font-size: 25px;
   font-weight: bold;
 }
 
-.header .header-right div {
+.header .header-right div:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,7 +65,7 @@ header {
           align-items: center;
 }
 
-.header .header-right div i {
+.header .header-right div:last-child i {
   font-size: 17px;
   margin-right: 8px;
 }
@@ -88,8 +84,15 @@ li {
 }
 
 @media screen and (max-width: 768px) {
+  .third-box:first-child {
+    margin-bottom: 30px;
+  }
   .header {
     display: block;
+  }
+  .header .header-right {
+    display: none;
+    float: none;
   }
   .menucard {
     display: -webkit-box;
@@ -107,12 +110,7 @@ li {
   }
   .header a {
     float: none;
-    display: block;
     text-align: left;
-  }
-  .header-right {
-    display: none;
-    float: none;
   }
 }
 
@@ -466,5 +464,38 @@ li {
 
 .aboutdiv {
   padding: 50px 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients .grid-container {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .clients .grid-container {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .secondiv {
+    width: 75%;
+  }
+  .content p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .services .grid-container {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+  .clintheading ul li.ChipList_partion ul.Chip_root li {
+    max-width: 25em;
+    -ms-flex-preferred-size: 28em;
+        flex-basis: 28em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
