@@ -3,14 +3,14 @@
 <script src="./Templates/Header.js"></script>
 
 <div class="flip-card-3D-wrapper" id="openmodel" style="display: none;">
-    <div class="flip-card">
+    <div id="flip-card">
 
         <div class="col-md-12 flip-card-front">
             <div class="container">
                 <div class="modalcss">
                     <div class="modal-content">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12">                            
                                 <div class="colsebtn">
                                     <button class="btnstyle" onclick="closediv()">&times;</button>
                                 </div>
@@ -19,16 +19,15 @@
                         </div>
                         <div class="header-model">
                             <div class="header-title">
-                                <div id="messhow">
-                                    <p id="messages"></p>
+                                <div class="messhow">
+                                    <div class="error-text"></div>
                                 </div>
-                                
                                 <div class="headertitle">
                                     <h4>Get in touCH with us</h4>
                                 </div>
 
                                 <form action="" method="POST" enctype="multipart/form-data" id="resetdata">
-                                    <div class="error-text"></div>
+                               
                                     <div class="quform-spacer">
                                         <div class="inputstyle">
                                             <input type="text" name="username" placeholder="Your Full Name"

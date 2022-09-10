@@ -1,23 +1,36 @@
-<link rel="stylesheet" href="./Templates/Header.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="./Templates/Header.js"></script>
-
-
-
-<div class="header">
-    <div class="menucard">
-        <a href="#"> <div class="bigtime" id="bigtime"> </div></a>
-        <i style="font-size:24px" class="fa" onclick="menulist()">&#xf0c9;</i>
-
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+    
+                <div class="header">
+                    <div class="menucard">
+                        <a href="index.php">
+                            <div class="bigtime" id="bigtime"> </div>
+                           <div><i style="font-size:24px" class="fa" onclick="menulist()">&#xf0c9;</i></div> 
+    
+                        </a>
+    
+                    </div>
+                    <div class="header-right">
+                        <a href="">About</a>
+                        <a href="#services-page">Services</a>
+                        <a href="#"> <span class="nav-link" onclick="opendiv()">Contact</span></a>
+                        <a href="#"> <span class="nav-link" onclick="openserverdiv()">Start a Project</span></a>
+                        <div onclick="logindiv()">
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            Log In 
+                        </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div>
     </div>
-    <div class="header-right">
-        <a  href="#services-page">Services</a>
-        <a href="#"> <span class="nav-link" onclick="opendiv()">Contact</span></a>
-        <a href="#"> <span class="nav-link" onclick="openserverdiv()">Start a Project</span></a>
-        <a href="#"> <button class="btnstyle" onclick="logindiv()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0S96 57.3 96 128s57.3 128 128 128zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg></button></a>
-    </div>
-
-</div>
+</header>
 
 
 <!-- <header class="header"> -->

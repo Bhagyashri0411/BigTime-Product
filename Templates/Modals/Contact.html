@@ -16,50 +16,55 @@
                 </div>
                 <div class="header-model new">
                     <div class="header-title">
-                        <div id="startmesshow">
-                            <p id="startmess"></p>
+                        <div class="messhow">
+                            <div class="error-text1"></div>
                         </div>
                         <div class="headertitle">
-                            <h4> Start A Project</h4>
+                            <h4> Start a Project</h4>
                         </div>
 
                         <form action="" method="POST" enctype="multipart/form-data" id="resetconn">
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="text" placeholder="Your Company name" name="comname" class="input-style"
-                                        id="projecttextfield">
+                                    <input type="text" placeholder="Your Company name" name="comname"
+                                        class="input-style" id="projecttextfield">
                                 </div>
                             </div>
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="text" placeholder="Your Company E-mail Address" name="comemail" class="input-style"
-                                        id="projectmailfield">
+                                    <input type="text" placeholder="Your Company E-mail Address" name="comemail"
+                                        class="input-style" id="projectmailfield">
                                 </div>
                             </div>
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="number" placeholder="Your Company Mobile number" name="comnumber" class="input-style"
-                                        id="projectmobilefield">
+                                    <input type="number" placeholder="Your Company Mobile number" name="comnumber"
+                                        class="input-style" id="projectmobilefield">
                                 </div>
                             </div>
-                            <div class="quform-spacer" style="display: flex;">
-                                <div class="inputstyle" style="margin-right: 10px;">
-                                    <textarea class="input-style" placeholder="Project Name"
-                                        id="projectnamefield" name="projectname"></textarea>
-                                </div>
-                                <div class="inputstyle" style="margin-left: 10px;">
-                                    <textarea class="input-style" placeholder="Project Description"
-                                        id="projectmesfield" name="projectdetails"></textarea>
+                            <div class="quform-spacer">
+                                <div class="inputstyle">
+                                    <select name="droproject">
+                                        <option value="" selected disabled hidden>Project Requirements</option>
+                                        <option value="Hire remote developers"> Hire remote developers.</option>
+                                        <option value="Dedicated monitoring team for exciting software"> Dedicated monitoring team for exciting software.</option>
+                                        <option value="Data enter & admin services"> Data enter & admin services.</option>
+                                        <option value="Consulting services for you software">Consulting services for you software.</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="sumbit">
-                                <input class="btnstyle" type="button" name="ContactSubmit" value="Sumbit" onclick="FunStart()">
+                                <input class="btnstyle" type="button" name="ContactSubmit" value="Sumbit"
+                                    onclick="FunStart()">
                             </div>
                         </form>
-                       
+
                     </div>
                 </div>
-                <div id="toast"><div id="img"> </div><div id="desc">Your Information is Successfully added...</div></div>
+                <div id="toast">
+                    <div id="img"> </div>
+                    <div id="desc">Your Information is Successfully added...</div>
+                </div>
             </div>
         </div>
     </div>
