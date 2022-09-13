@@ -1,5 +1,6 @@
 <!-- MODEL OF LOGIN -->
 <link rel="stylesheet" href="./Templates/Modals/Modals.css">
+<script src="./Templates/Modals/Loginmodel.js"></script>
 <script src="./Templates/Header.js"></script>
 
 <div class="col-md-12">
@@ -14,32 +15,34 @@
 
                     </div>
                 </div>
-                <div class="header-model">
+                <div class="header-model lognew">
                     <div class="header-title">
-                        <div id="messhow">
-                            <p id="messages"></p>
+                        <div class="messhow">
+                            <div class="error-text2"></div>
                         </div>
                         <div class="headertitle">
                             <h4> Administrative Login</h4>
                         </div>
 
-                        <form id="resetourdata">
+                        <form action="" method="POST" id="resetourdata" enctype="multipart/form-data">
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="text" placeholder="Enter Your Username" class="input-style" id="a">
+                                    <input type="text" placeholder="Enter Your Username" name="logname"
+                                        class="input-style">
                                 </div>
                                 <!-- <p class="alertText" id="textuser">Please Enter Your Full Name</p> -->
                             </div>
                             <div class="quform-spacer">
                                 <div class="inputstyle">
-                                    <input type="text" placeholder="Enter Your Password" class="input-style" id="b">
+                                    <input type="text" placeholder="Enter Your Password" name="logpass"
+                                        class="input-style">
                                 </div>
                                 <!-- <p class="alertText" id="mailuser">Please Enter Your E-mail Address</p> -->
                             </div>
+                            <div class="sumbit">
+                                <input class="btnstyle" type="button" name="" value="Log hb In" onclick="loginifor()">
+                            </div>
                         </form>
-                        <div>
-                            <button class="btnstyle" onclick="usersubdata()">Log In</button>
-                        </div>
                     </div>
                 </div>
 

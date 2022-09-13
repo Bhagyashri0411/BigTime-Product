@@ -3,65 +3,7 @@ $white: rgb(255, 255, 255);
 // $shadowbox :0  0 4px 8px rgb(0 0 0 / 12%);
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
-
-header {
-    top: 0;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    background-color: $mainblue;
-}
-
-.header {
-    .menucard {
-        // display: block;
-
-        i {
-            display: none;
-            cursor: pointer;
-        }
-    }
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .header-right {
-        float: right;
-        display: flex;
-        align-items: center;
-    }
-
-    a,  a:hover, .header-right div:last-child {
-        color: rgb(255, 255, 255);
-        text-align: center;
-        cursor: pointer;
-        margin: 0 12px;
-        text-decoration: none;
-        font-size: 16px;
-        line-height: 25px;
-        border-radius: 4px;
-
-        .logo {
-            font-size: 25px;
-            font-weight: bold;
-        }
-
-    }
-
-    .header-right div:last-child {
-        display: flex;
-        align-items: center;
-
-        i {
-            font-size: 17px;
-            margin-right: 8px;
-        }
-    }
-}
-
+@import "./header";
 
 
 li {
@@ -78,12 +20,13 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-    .third-box:first-child{
+    .third-box:first-child {
         margin-bottom: 30px;
     }
-   
+
     .header {
         display: block;
+
         .header-right {
             display: none;
             float: none;
@@ -106,7 +49,7 @@ li {
         text-align: left;
     }
 
-   
+
 }
 
 .banner {
@@ -137,7 +80,7 @@ li {
 
 .content p {
     margin: 50px auto;
-    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
     word-spacing: 3px;
     font-weight: bold;
     line-height: 50px;
@@ -166,20 +109,25 @@ li {
 
     .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
-        border: 1px dashed rgba(0, 0, 0, 0.8);
         padding: 50px 20px;
+        border-top: 1px solid rgba(0, 0, 0, 0.8);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+        border-left: 1px solid rgba(0, 0, 0, 0.8);
         font-size: 30px;
         text-align: center;
 
         h3 {
-            font-size: 29px;
+            font-size: 33px;
             text-transform: uppercase;
             color: $mainblue;
         }
 
         p {
-            font-size: 16px;
+            font-size: 18px;
         }
+    }
+    .grid-item:last-child{
+        border-right: 1px solid rgba(0, 0, 0, 0.8);
     }
 }
 
@@ -188,19 +136,19 @@ li {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 80px 0;
+    padding: 60px 0;
 
     h3 {
-        font-size: 29px;
+        font-size: 33px;
         text-align: center;
-        margin: 50px 0;
+        margin-bottom: 50px;
         text-transform: uppercase;
         color: $mainblue;
         font-weight: bold;
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 30px;
         text-align: center;
     }
@@ -208,7 +156,7 @@ li {
 
 .clients {
     h3 {
-        font-size: 29px;
+        font-size: 33px;
         text-align: center;
         margin-bottom: 50px;
         text-transform: uppercase;
@@ -227,7 +175,9 @@ li {
 
     .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
-        border: 1px dashed rgba(0, 0, 0, 0.8);
+        border-top: 1px solid rgba(0, 0, 0, 0.8);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+        border-left: 1px solid rgba(0, 0, 0, 0.8);
         padding: 0 20px;
         font-size: 30px;
         display: flex;
@@ -236,14 +186,17 @@ li {
         text-align: center;
 
         h3 {
-            font-size: 29px;
+            font-size: 33px;
             text-transform: uppercase;
             color: $mainblue;
         }
 
         p {
-            font-size: 16px;
+            font-size: 18px;
         }
+    }
+    .grid-item:last-child{
+        border-right: 1px solid rgba(0, 0, 0, 0.8);
     }
 }
 
@@ -323,7 +276,7 @@ li {
         margin-bottom: 4.8rem;
 
         h4 {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 500;
             line-height: inherit;
             margin: 0 0 0.5em;
@@ -344,7 +297,7 @@ li {
                     width: calc(100% - 1em);
                     padding: 1rem;
                     margin: 0.8rem;
-                    font-size: 16px;
+                    font-size: 18px;
                     color: #41bfad;
                     background-color: #fff;
                     box-shadow: 0px 2px 4px rgba(0, 0, 0, .078);
@@ -420,11 +373,11 @@ li {
 
 .startups-logo {
     h4 {
-        font-size: 29px;
+        font-size: 33px;
         text-align: center;
-        margin: 20px 0;
+        margin-bottom: 50px;
         text-transform: uppercase;
-        color: #0c3c60;
+        color: $mainblue;
         font-weight: bold;
     }
 }
@@ -435,38 +388,43 @@ li {
         font-style: italic;
         text-decoration: double;
         text-align: center;
-        font-size: 21px;
+        font-size: 22px;
         padding: 50px 100px;
     }
 
 }
-.aboutdiv{
+
+.aboutdiv {
     padding: 50px 0;
 }
+
 @media screen and (max-width: 1199px) {
-    .clients .grid-container{
+    .clients .grid-container {
         grid-template-columns: auto auto auto;
     }
 }
 
 @media screen and (max-width:888px) {
-    .clients .grid-container{
+    .clients .grid-container {
         grid-template-columns: auto auto;
     }
-  
-    .secondiv{
+
+    .secondiv {
         width: 75%;
     }
-    .content p{
-        font-size: 25px;
-        line-height: 40px;
+
+    .content p {
+        font-size: 23px;
+        line-height: 35px;
     }
 }
+
 @media screen and (max-width:450px) {
-    .services .grid-container{
+    .services .grid-container {
         grid-template-columns: auto;
     }
-    .clintheading ul li.ChipList_partion ul.Chip_root li{
+
+    .clintheading ul li.ChipList_partion ul.Chip_root li {
         max-width: 25em;
         flex-basis: 28em;
     }

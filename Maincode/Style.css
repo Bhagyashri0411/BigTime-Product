@@ -65,12 +65,12 @@ ul {
 }
 
 .elerow-body li .arrow-text {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
 .title-body li span {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #2f2f2f;
     font-family: "Poppins", Sans-serif;
@@ -114,7 +114,7 @@ ul {
 .third-head p {
     margin-bottom: 40px;
     line-height: 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Poppins", Sans-serif;
 }
 
@@ -611,7 +611,7 @@ td {
     width: 100%;
     padding: 20px;
     border-radius: 15px;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #dde1e6;
 }
 

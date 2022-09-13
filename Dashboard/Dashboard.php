@@ -3,6 +3,10 @@
 include_once("./../php/config.php");
 
 $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // using mysqli_query instead
+
+session_start();
+if (isset($_SESSION['username'])) {
+
 ?>
 
 <!DOCTYPE html>
@@ -122,7 +126,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
                 <div class="mainnav">
                     <div class="profile">
                         <img class="profile-image" src="./../images/btlogo.jpg">
-                        <p class="profile-name">Harsh Sir</p>
+                        <p class="profile-name"> <?php echo $_SESSION['name']?></p>
                     </div>
                 </div>
             </div>
@@ -193,3 +197,12 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
 </body>
 
 </html>
+
+<?php 
+}
+else
+{
+    header("location: ./../index.php");
+    exit();
+}
+?>
