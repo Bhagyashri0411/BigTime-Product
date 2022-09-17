@@ -146,6 +146,7 @@ header {
 .header .menucard i {
   display: none;
   cursor: pointer;
+  color: #fff;
 }
 
 .header .header-right {
@@ -634,6 +635,7 @@ li {
 
 .aboutdiv .grid-container .imgabout img {
   width: 100%;
+  height: 100%;
 }
 
 .aboutdiv .grid-container .mainfor h2 {
@@ -701,9 +703,24 @@ li {
     -ms-flex-preferred-size: 26em;
     flex-basis: 26em;
   }
+  .aboutdiv .grid-container {
+    display: block;
+  }
+  .aboutdiv .grid-container .pl-0 {
+    padding: 0;
+  }
+  .aboutdiv .grid-container .pr-0 {
+    padding: 0;
+  }
+  .aboutdiv .grid-container .imgabout img {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 715px) {
+  .slideshow-container .itemdata {
+    padding: 50px;
+  }
   .services .bigtimeproj .grid-container {
     -ms-grid-columns: auto;
         grid-template-columns: auto;

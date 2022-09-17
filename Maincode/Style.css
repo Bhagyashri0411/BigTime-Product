@@ -696,7 +696,7 @@ td {
 }
 
 .activedot {
-    background-color: #717171;
+    background-color: rgb(12, 60, 96);
 }
 .mySlides{
     display: none;
