@@ -138,11 +138,12 @@ li {
 }
 
 .about {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(250, 250, 250, 0.4)), url('./../images/aboutback.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('./../images/aboutback.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding: 60px 0;
+    color: #fff;
 
     h3 {
         font-size: 33px;
