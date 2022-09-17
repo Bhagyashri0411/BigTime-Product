@@ -3,6 +3,10 @@
 include_once("./../php/config.php");
 
 $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // using mysqli_query instead
+
+session_start();
+if (isset($_SESSION['username'])) {
+
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +51,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="#ser">
                             <i class='bx bx-home-alt icon'></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
@@ -98,19 +102,6 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
                         <span class="text nav-text">Logout</span>
                     </a>
                 </li>
-
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-
             </div>
         </div>
 
@@ -122,13 +113,14 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
                 <div class="mainnav">
                     <div class="profile">
                         <img class="profile-image" src="./../images/btlogo.jpg">
-                        <p class="profile-name">Harsh Sir</p>
+                        <p class="profile-name"> <?php echo $_SESSION['name']?></p>
                     </div>
                 </div>
             </div>
         </div>
-        <section class="bodydiv">
+        <section id="contct1">
                       <div class="col-md-12">
+                        <div class="bodydiv"> <h3>Contact Details</h3></div>
                 <div class="col-md-12">
                     <div class="card" style="background-color: #fff;">
                     <table>
@@ -138,6 +130,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
 		                <th>Email</th>
 		                <th>Mob.No</th>
 		                <th>Messages</th>
+                        <th>View More details</th>
 	                </tr>
 	            <?php 
 	
@@ -148,6 +141,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
 		                echo "<td>".$res['usermail']."</td>";	
 		                echo "<td>".$res['usermobile']."</td>";
 		                echo "<td>".$res['usermessage']."</td>";
+                        echo "<td><input type='button' class='buysell' value='View More' onclick='showalldata()'></td>";
 		                echo "</tr>";
 	                    }
 	            ?>
@@ -157,6 +151,9 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
             </div>
 
 
+        </section>
+        <section id="ser">
+            Hii
         </section>
     </section>
 
@@ -177,19 +174,17 @@ $result = mysqli_query($mysqli, "SELECT * FROM inquiry ORDER BY id DESC"); // us
         searchBtn.addEventListener("click", () => {
             sidebar.classList.remove("closediv");
         })
-
-        modeSwitch.addEventListener("click", () => {
-            body.classList.toggle("dark");
-
-            if (body.classList.contains("dark")) {
-                modeText.innerText = "Light mode";
-            } else {
-                modeText.innerText = "Dark mode";
-
-            }
-        });
     </script>
 
 </body>
 
 </html>
+
+<?php 
+}
+else
+{
+    header("location: ./../index.php");
+    exit();
+}
+?>

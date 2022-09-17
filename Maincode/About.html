@@ -1,9 +1,79 @@
 <div class="aboutdiv">
-<div class="container">
-   <div class="row">
-      <div class="col-md-12">
-         hii
+   <div class="container">
+      <div class="row" id="hided">
+         <div class="col-md-12">
+            <div class="grid-container">
+               <div class="col-md-5 pl-0">
+                  <div class="imgabout">
+                     <img src="./images/about.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="mainfor">
+                     <h2> About</h2>
+                     <p> We are a digital transformation consultancy and software development company that provides
+                        cutting edge engineering solutions, helping Fortune 500 companies and enterprise clients
+                        untangle complex issues that always emerge during their digital evolution journey.</p>
+                     <h2> Advanced Business Software</h2>
+                     <ul>
+                        <li><strong>Bigdata :</strong> Scalable software that aggregates and processes huge volumes of
+                           data with high velocity.</li>
+                        <li><strong>Artificial intelligence : </strong> Software capable of drawing insights and
+                           triggering actions based on historical
+                           and real-time data processing.</li>
+                        <li><strong> Data science : </strong> Software that can find sophisticated patterns in data and
+                           continuously learn to deliver more
+                           accurate results.</li>
+                     </ul>
+                     <div style="text-align: end;">
+                        <span onclick="dishow()"> View More <i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row" id="showdivz" style="display: none;">
+         <div class="col-md-12">
+            <div class="grid-container">
+               <div class="col-md-7 pl-0">
+                  <div class="mainfor">
+                     <h2> Advanced Business Software</h2>
+                     <ul>
+                        <li><strong>Bigdata  : </strong> Scalable software that aggregates and processes huge volumes of data with high velocity.</li>
+                           <li><strong>Artificial intelligence :</strong>Software capable of drawing insights and triggering actions based on historical
+                              and real-time data processing.</li>
+                           <li><strong>Data science : </strong>Software that can find sophisticated patterns in data and continuously learn to deliver more 
+                              accurate results.
+                           </li>
+                           <li><strong>Internet of Things : </strong> Software that allows for fast processing and mining of data captured by physical objects.</li>
+                           <li><strong>Computer vision :</strong>Software to recognize patterns and classify objects in digital images and videos.</li>
+                           <li><strong>Augmented reality : </strong>Software capable of laying virtual objects over real surroundings.
+                           </li>
+                           <li><strong>Virtual reality :</strong>Software that creates fictional environment with 3D objects and realistic acoustics. </li>
+                           <li><strong>Blockchain  :</strong>Blockchain development services help create decentralized apps that provide increased traceability 
+                              and security of data and transactions. </li>
+                     </ul>
+
+
+                  </div>
+               </div>
+               <div class="col-md-5 pr-0">
+                  <div class="imgabout">
+                     <img src="./images/advancebuss.jpg" alt="">
+                  </div>
+               </div>
+
+            </div>
+         </div>
       </div>
    </div>
 </div>
-</div>
+
+<script>
+   function dishow() {
+      document.getElementById('showdivz').style.display = "block"
+      document.getElementById('hided').style.display = "none"
+   }
+</script>

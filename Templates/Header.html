@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="./Templates/Header.js"></script>
-<header>
+<header id="headertop">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -9,16 +9,18 @@
                     <div class="menucard">
                         <a href="index.php">
                             <div class="bigtime" id="bigtime"> </div>
-                           <div><i style="font-size:24px" class="fa" onclick="menulist()">&#xf0c9;</i></div> 
+                           
     
                         </a>
+                        <div><i style="font-size:24px" class="fa" onclick="menulist()">&#xf0c9;</i></div>
     
                     </div>
                     <div class="header-right">
-                        <a href="">About</a>
-                        <a href="#services-page">Services</a>
-                        <a href="#"> <span class="nav-link" onclick="opendiv()">Contact</span></a>
-                        <a href="#"> <span class="nav-link" onclick="openserverdiv()">Start a Project</span></a>
+                        <div>     <a href="about.php">About</a></div>
+                   <div>   <a href="#tech">Services</a></div>
+                     <div>           <a href="#"> <span class="nav-link" onclick="opendiv()">Contact</span></a></div>
+             
+                        <div><a href="#"> <span class="nav-link" onclick="openserverdiv()">Start a Project</span></a></div>
                         <div onclick="logindiv()">
                             <i class="fa fa-user-circle" aria-hidden="true"></i>
                             Log In 
@@ -31,46 +33,3 @@
         </div>
     </div>
 </header>
-
-
-<!-- <header class="header"> -->
-<!-- <nav class="navbar">
-        <div class="container-fluid">
-            <div class="col-md-12">
-                <div class="bigtime" id="bigtime">
-
-                </div>
-                <ul class="nav-menu" id="leftstyle">
-                    <li class="nav-item">
-                        <div class="nav-link">Services</div>
-                    </li>
-                    <li class="nav-item">
-                        <span class="nav-link" onclick="opendiv()">Contact</span>
-                    </li>
-                    <li class="nav-item">
-                        <span class="nav-link" onclick="openserverdiv()">Start A Projects</span>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btnstyle" onclick="logindiv()">Log In</button>
-                    </li>
-                </ul>
-                <div class="hamburger" onclick="mobilemenu()">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
-        </div>
-    </nav> -->
-
-<!-- <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-</header> -->

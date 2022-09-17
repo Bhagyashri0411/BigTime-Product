@@ -31,21 +31,21 @@ function usersubdata() {
   else {
     alert("Invalid a and b");
   }
-  // if ((firstname == "bhagyashri") && (password == "123")) {
-  //   $(location).attr('href', "dashboard.html");
-  //   alert("hiii")
-  // }
-  // else {
-  //   alert("hello")
-  // }
+  if ((firstname == "bhagyashri") && (password == "123")) {
+    $(location).attr('href', "dashboard.html");
+    alert("hiii")
+  }
+  else {
+    alert("hello")
+  }
 }
 
 function menulist() {
-var a =  document.getElementsByClassName('header-right')[0].style.display;
-if (a == "block") {
-  document.getElementsByClassName('header-right')[0].style.display ="none";
-}
-else{
-  document.getElementsByClassName('header-right')[0].style.display ="block";
-}
+  var a = document.getElementsByClassName('header-right')[0].style.display;
+  if (a == "block") {
+    document.getElementsByClassName('header-right')[0].style.display = "none";
+  }
+  else {
+    document.getElementsByClassName('header-right')[0].style.display = "block";
+  }
 }
