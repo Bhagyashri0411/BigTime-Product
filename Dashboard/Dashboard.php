@@ -51,7 +51,7 @@ if (isset($_SESSION['username'])) {
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="#ser">
                             <i class='bx bx-home-alt icon'></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
@@ -102,19 +102,6 @@ if (isset($_SESSION['username'])) {
                         <span class="text nav-text">Logout</span>
                     </a>
                 </li>
-
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-
             </div>
         </div>
 
@@ -131,8 +118,9 @@ if (isset($_SESSION['username'])) {
                 </div>
             </div>
         </div>
-        <section class="bodydiv">
+        <section id="contct1">
                       <div class="col-md-12">
+                        <div class="bodydiv"> <h3>Contact Details</h3></div>
                 <div class="col-md-12">
                     <div class="card" style="background-color: #fff;">
                     <table>
@@ -142,6 +130,7 @@ if (isset($_SESSION['username'])) {
 		                <th>Email</th>
 		                <th>Mob.No</th>
 		                <th>Messages</th>
+                        <th>View More details</th>
 	                </tr>
 	            <?php 
 	
@@ -152,6 +141,7 @@ if (isset($_SESSION['username'])) {
 		                echo "<td>".$res['usermail']."</td>";	
 		                echo "<td>".$res['usermobile']."</td>";
 		                echo "<td>".$res['usermessage']."</td>";
+                        echo "<td><input type='button' class='buysell' value='View More' onclick='showalldata()'></td>";
 		                echo "</tr>";
 	                    }
 	            ?>
@@ -161,6 +151,9 @@ if (isset($_SESSION['username'])) {
             </div>
 
 
+        </section>
+        <section id="ser">
+            Hii
         </section>
     </section>
 
@@ -181,17 +174,6 @@ if (isset($_SESSION['username'])) {
         searchBtn.addEventListener("click", () => {
             sidebar.classList.remove("closediv");
         })
-
-        modeSwitch.addEventListener("click", () => {
-            body.classList.toggle("dark");
-
-            if (body.classList.contains("dark")) {
-                modeText.innerText = "Light mode";
-            } else {
-                modeText.innerText = "Dark mode";
-
-            }
-        });
     </script>
 
 </body>

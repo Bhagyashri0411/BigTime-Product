@@ -705,6 +705,14 @@ td {
     .fist .imgdiv{
         width: 100%;
     }
+    .fist .imgdiv .HPServicesDesc {
+        visibility: visible;
+        top: 35%;
+        opacity: 1;
+      }
+      .fist .imgdiv .main {
+        top: 50px;
+    }
     .available-list, .available-list-tech {
         display: block;
     }
@@ -712,5 +720,11 @@ td {
         width: 100% ;
         justify-content: center;
         
+    }
+}
+@media screen and (max-width:850px){
+    .fist .imgdiv .HPServicesDesc{
+        top: 25%;
+        font-size: 14px;
     }
 }

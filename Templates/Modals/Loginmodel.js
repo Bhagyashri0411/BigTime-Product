@@ -11,7 +11,7 @@ const loginifor = () => {
                 let data = xhr.response;
                 if (data == "success") {
                     window.open('./Dashboard/Dashboard.php', '_self');
-                    alert('success')
+                    // alert('success')
                 }
                 else {
                     errortxt.textContent = data;

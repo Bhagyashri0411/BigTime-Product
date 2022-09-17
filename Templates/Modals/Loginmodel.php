@@ -16,10 +16,10 @@ include_once("./../../php/config.php");
     // $name = mysqli_real_escape_string($mysqli, )
 
 	if (empty($logname)) {
-		echo "error=User Name is required";
+		echo "Username is required";
 	    // exit();
 	}else if(empty($pass)){
-        echo "error=userpassword is required";
+        echo "Userpassword is required";
 	    // exit();
 	}else{
 		$sql = "SELECT * FROM logininformation WHERE username='$logname' AND userpassword='$pass'";
@@ -35,10 +35,10 @@ include_once("./../../php/config.php");
             }
               
             else{
-			echo "hii";
+			echo "Please Check your Username and Password";
 			}
 		}else{
-			echo "heelo";
+			echo "Please Enter validate Information";
 		}
 	}
 	

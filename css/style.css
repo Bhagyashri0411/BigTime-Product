@@ -297,14 +297,19 @@ li {
   padding: 60px 0;
 }
 
-.services .grid-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+.services .bigtimeproj {
+  max-width: 1700px;
+  margin: auto;
 }
 
-.services .grid-item {
+.services .bigtimeproj .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+}
+
+.services .bigtimeproj .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 50px 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.8);
@@ -314,17 +319,17 @@ li {
   text-align: center;
 }
 
-.services .grid-item h3 {
+.services .bigtimeproj .grid-item h3 {
   font-size: 33px;
   text-transform: uppercase;
   color: #0c3c60;
 }
 
-.services .grid-item p {
+.services .bigtimeproj .grid-item p {
   font-size: 18px;
 }
 
-.services .grid-item:last-child {
+.services .bigtimeproj .grid-item:last-child {
   border-right: 1px solid rgba(0, 0, 0, 0.8);
 }
 
@@ -607,6 +612,59 @@ li {
 
 .aboutdiv {
   padding: 50px 0;
+  padding-top: 120px;
+}
+
+.aboutdiv .grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.aboutdiv .grid-container .pl-0 {
+  padding-left: 0;
+}
+
+.aboutdiv .grid-container .pr-0 {
+  padding-right: 0;
+}
+
+.aboutdiv .grid-container .imgabout img {
+  width: 100%;
+}
+
+.aboutdiv .grid-container .mainfor h2 {
+  font-size: 33px;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #0c3c60;
+  font-weight: bold;
+}
+
+.aboutdiv .grid-container .mainfor p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 31px;
+  text-align: justify;
+}
+
+.aboutdiv .grid-container .mainfor li {
+  list-style: auto;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.aboutdiv .grid-container .mainfor span {
+  font-size: 14px;
+  color: #0c3c60;
+  cursor: pointer;
+}
+
+.aboutdiv .grid-container .mainfor span i {
+  margin-left: 3px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -621,6 +679,9 @@ li {
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
   }
+  .clients .grid-container .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
   .secondiv {
     width: 75%;
   }
@@ -630,15 +691,155 @@ li {
   }
 }
 
-@media screen and (max-width: 450px) {
-  .services .grid-container {
+@media screen and (max-width: 991px) {
+  #softechnology {
+    display: none;
+  }
+  .clintheading ul li.ChipList_partion ul.Chip_root li {
+    max-width: 16em;
+    -ms-flex-preferred-size: 26em;
+    flex-basis: 26em;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .services .bigtimeproj .grid-container {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
+  }
+  .services .bigtimeproj .grid-container .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
   }
   .clintheading ul li.ChipList_partion ul.Chip_root li {
     max-width: 25em;
     -ms-flex-preferred-size: 28em;
         flex-basis: 28em;
   }
+}
+
+@media screen and (max-width: 350px) {
+  .clients .grid-container {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+#softtype .software {
+  margin: auto;
+  max-width: 1500px;
+}
+
+#softtype .software .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 47% 53%;
+      grid-template-columns: 47% 53%;
+}
+
+#softtype .software .grid-container .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+
+#softtype .software .grid-container .grid-item .imgstyle img {
+  width: 100%;
+}
+
+.p0 {
+  padding: 0px !important;
+}
+
+.p0 a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  outline: 0;
+}
+
+.p0 figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.p0 figure img {
+  position: relative;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  display: block;
+}
+
+.grid-do_more {
+  position: relative;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.bottom-gradient-do_more {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  min-height: 600px;
+  width: 100%;
+  opacity: 1;
+}
+
+.bottom-gradient-do_more:hover {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), color-stop(23%, rgba(0, 0, 0, 0.2)), color-stop(40%, rgba(0, 0, 0, 0)), color-stop(68%, rgba(0, 0, 0, 0)), color-stop(81%, rgba(0, 0, 0, 0)), color-stop(92%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(0deg, #000 0, rgba(0, 0, 0, 0.2) 23%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 81%, rgba(0, 0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+  background-color: rgba(5, 18, 36, 0.5);
+}
+
+.bottom-gradient-do_more:hover + img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.bottom-gradient-do_more:hover + figcaption {
+  max-height: none;
+}
+
+figcaption {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+  max-height: 40px;
+}
+
+.do_more-grid-title {
+  color: #fff;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.do_more-grid-desc {
+  color: #fff;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+.do_more-grid-desc strong {
+  display: block;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
