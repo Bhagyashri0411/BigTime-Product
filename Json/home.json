@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Personal loan",
+        "para": "Personal funds for a broad range of individual desires and requirements.",    
+        "image": "./assets/img/services/support/personal.jpg",
+        "dis": "Personal loans are a type of installment loan. A personal loan, unlike a credit card, provides borrowers with a one-time cash payment. Borrowers then pay back the loan amount plus interest in regular monthly installments over the loan's term.        "
+    },
+    {
+        "name": "Mortgage",
+        "para" : "Avail your path to home ownership.",
+        "image": "./assets/img/services/support/Mortgage.jpg",
+      
+        "dis": "A mortgage loan is a secured loan that allows you to obtain funds by providing the lender with an immovable asset, such as a house or commercial property, as collateral. The asset is kept by the lender until you repay the loan. A mortgage, also known as a home loan, allows you to borrow money to finance the largest purchase of your life. Mortgages are available for a variety of borrowers, including first-time home buyers and military veterans. Failure to repay your mortgage, as with auto loans, may result in foreclosure and eviction."
+    },
+    {
+        "name": "Holiday loan",
+        "para": "Can help pay for gifts and other holiday expenses.",
+        "image": "./assets/img/services/support/holiday.jpg",
+        "dis": "A holiday loan is a type of personal loan used to cover holiday expenses. Banks, credit unions, and online lenders all provide these loans. A holiday loan has a fixed interest rate, a fixed monthly payment, and a set loan term, usually ranging from six months to five years. To cover the costs of creating the loan, some lenders may charge an upfront origination fee"
+    },
+    
+    {
+        "name": "Debt consolidation loan",
+        "para": "Combine several debt accounts, preferably with lower interest rates.",
+        "image": "./assets/img/services/general-insurance.jpg",
+        "dis": "Debt consolidation loans, depending on your credit and the type of debt you have, can help you repay it at a lower interest rate. When trying to compare loan options, keep loan APRs, or annual percentage rates, in mind. This rate includes the rate of interest plus fees and is a more accurate representation of your borrowing rates.Borrowers with excellent credit and finances are offered the best rates. These borrowers may also think about using a balance transfer credit card to consolidate or refinance credit card debt. However, unless you have extremely high-interest debt, a debt consolidation loan may not be a viable way to save money over repayment if you have bad credit."
+    }
+]

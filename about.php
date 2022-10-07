@@ -1,32 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
 
-
-<html>
-<head>	
-<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BigTime</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./images/btlogo.jpg" type="image/x-icon">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.map"></script>
+<head>
+   <?php
+    include './jsfileconnection/head.html';
+    ?>
 </head>
 
 <body>
 
-<div id="header"></div>
-<div id="about"></div>
-<div id="footer"></div>
-<div id="inquiry"> </div>
-<div id="modelogin"> </div>
-<div id="startaproject"> </div>
+   <!-- header section starts  -->
+   <?php
+    include './Components/header.html';
+    ?>
 
-<!-- <div id="showme">hiii</div> -->
+   <!-- about section starts  -->
 
-<script src="./js/about.js"></script>
+   <section>
+      <div class="mainheading">
+         <h2> About Us</h2>
+      </div>
+      <div class="home-about">
+         <!-- <div class="image">
+            <img src="./assets/img/background/aboutimg.jpg" alt="">
+         </div> -->
+         <div class="content" style='padding:3rem; background:#f6f4f6'>
+            <div class="about-content">
+
+               <div class="services-item-area">
+                  <div class="row">
+
+                     <div class="col-lg-6 col-md-6">
+                        <div class="services-details-item" style='background:#fff; color:#303841'>
+                           <p> We have a dedicated staff of incredibly motivated, dynamic, and innovative engineers who
+                              can be immediately deployed to assist drive things forward in your product roadmap or fast
+                              iterate on new product ideas so you can focus on the critical areas of the business.
+
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="services-details-item" style='background:#303841;'>
+                           <p style=' color:#fff'> We are well-versed in the industry's most recent technology and
+                              trends. This ensures that
+                              we finish your project utilising the most recent techniques and that your developers are
+                              up to date on the most exciting developments.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="services-details-item" style='background:#303841;'>
+                           <p style=' color:#fff'> Our organisation is well-equipped with cutting-edge technology and
+                              tools. We strive to
+                              disciplined and well-organized systems development. Performance, deliver, and win
+                              customers - that's how we've functioned for years and will continue to operate in the
+                              future.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="services-details-item" style='background:#fff; color:#303841'>
+                           <p>
+                              Bigtime is dedicated to engineering optimal technological solutions that increase global
+                              earnings for international clients. We have a robust team of experienced software
+                              programmers in various technological sets ranging from mobility, web development,
+                              Blockchain, AI and more.
+
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+      </div>
+
+   </section>
+
+   <section class=''>
+      <div class="row">
+
+         <div class="services-details pt-20 pb-20">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="services-details-content">
+                     <div class="mainheading">
+                        <h2> ADVANCED BUSINESS SOFTWARE</h2>
+                     </div>
+
+                     <div class="services-item-area">
+                        <div class="row">
+                           <div class="col-lg-4 col-md-6">
+                              <div class="services-details-item">
+                                 <i class="fa fa-tasks" aria-hidden="true"></i>
+                                 <h3> Bigdata </h3>
+                                 <p>Scalable software that aggregates and processes huge volumes of data with high
+                                    velocity.</p>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-6">
+                              <div class="services-details-item">
+                                 <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                                 <h3>Artificial intelligence </h3>
+                                 <p> Software capable of drawing insights and triggering actions based on historical and
+                                    real-time data processing.</p>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-6">
+                              <div class="services-details-item">
+                                 <i class="fa fa-lock" aria-hidden="true"></i>
+                                 <h3>Data science</h3>
+                                 <p>Software that can find sophisticated patterns in data and continuously learn to
+                                    deliver more accurate results.</p>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-6">
+                              <div class="services-details-item">
+                                 <i class="fa fa-exchange" aria-hidden="true"></i>
+                                 <h3>Internet of Things </h3>
+                                 <p>Software that allows for fast processing and mining of data captured by physical
+                                    objects.</p>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-6">
+                              <div class="services-details-item">
+                                 <i class="fa fa-lock" aria-hidden="true"></i>
+                                 <h3>Computer vision</h3>
+                                 <p>Software to recognize patterns and classify objects in digital images and videos.
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-6">
+                              <div class="services-details-item">
+                                 <i class="fa fa-exchange" aria-hidden="true"></i>
+                                 <h3>Augmented reality </h3>
+                                 <p>Software that creates fictional environment with 3D objects and realistic acoustics.
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-md-6">
+                              <div class="services-details-item">
+                                 <i class="fa fa-exchange" aria-hidden="true"></i>
+                                 <h3>Blockchain </h3>
+                                 <p>Blockchain development services help create decentralized apps that provide
+                                    increased traceability and security of data and transactions.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+
+      </div>
+   </section>
+   <!-- about section ends -->
+
+   <div class="row service-home">
+
+
+      <div class="col-lg-3 col-md-6 text-center">
+
+         <div class="showingicon icon row">
+
+            <div
+               class="bg-img align-self-center col-md-12 rocket-lazyload entered lazyloaded"
+               style="background-image: url(&quot;https://vajraglobal.com/wp-content/uploads/2021/02/1-1.svg&quot;);">
+
+               <img src="https://vajraglobal.com/wp-content/uploads/2021/02/1.svg" title="User experience &amp; design"
+                  alt="User experience &amp; design" height="150" width="150"
+                  data-lazy-src="https://vajraglobal.com/wp-content/uploads/2021/02/1.svg" data-ll-status="loaded"
+                  class="entered lazyloaded"><noscript><img
+                     src="https://vajraglobal.com/wp-content/uploads/2021/02/1.svg" title="User experience & design"
+                     alt="User experience & design" / height="150" width="150"></noscript>
+
+            </div>
+
+            <div class="bg-img align-self-end col-md-12">
+
+               <h3>User experience &amp; design</h3>
+
+            </div>
+
+         </div>
+
+         <div class="icon icon-hover d-flex">
+
+            <div
+               class="bg-img align-self-center rocket-lazyload entered lazyloaded"
+               style="background-image: url(&quot;https://vajraglobal.com/wp-content/uploads/2021/02/1-1.svg&quot;);"
+               height="" width="" data-ll-status="loaded">
+
+               <p class="newhead1">User experience &amp; design</p>
+
+               <p>Visual communication that engages and intuitively drives the user journey and actions is a fine
+                  balance of art and business goals. Experience our design!</p>
+
+                  
+
+            </div>
+
+         </div>
+
+      </div>
+
+
+   </div>
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
+   <?php
+      include './jsfileconnection/js.html';
+      include './Components/footer.html'
+   ?>
 </body>
+
 </html>

@@ -1,0 +1,30 @@
+[
+    {
+        "image": "./assets/img/clients/honeywell.png",
+        "name" : "Honeywell"
+    },
+    {
+        "image": "./assets/img/clients/Indian-Oil-Logo.jpg",
+        "name" : "Indian oil"
+    },
+    {
+        "image": "./assets/img/clients/ingenero.png",
+        "name" : "Ingenero"
+    },
+    {
+        "image": "./assets/img/clients/P66.png",
+        "name" : "Phillips 66"
+    },
+    {
+        "image": "./assets/img/clients/Siemens.png",
+        "name" : "Siemens"
+    },
+    {
+        "image": "./assets/img/clients/SABIC_Logo_.png",
+        "name": "Sabic"
+    },
+    {
+        "image": "./assets/img/clients/westlake_logo.jpg",
+        "name": "Westlake"
+    }
+]
