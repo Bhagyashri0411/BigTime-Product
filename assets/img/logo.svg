@@ -6,6 +6,7 @@
    height="69mm"
    viewBox="0 0 197 69"
    version="1.1"
+   id="svg5"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="Bigtime Logo for WebHosting.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -13,7 +14,26 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="176.42314"
+     inkscape:cy="136.82516"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <linearGradient
@@ -90,7 +110,7 @@
          y="64.065979"
          sodipodi:role="line">Technology</tspan></text>
     <path
-       style="opacity:0.95;fill:#f6f4f6;fill-opacity:1;stroke-width:0.279719"
+       style="opacity:0.95;fill:#800080;fill-opacity:1;stroke-width:0.279719"
        d="M 53.079711,65.511596 C 56.638065,37.955106 35.620712,35.206448 35.620712,35.206448 Z"
        id="path11317" />
     <path
@@ -98,15 +118,15 @@
        d="M 33.600439,35.422071 C 33.99343,57.298971 6.091303,57.505401 6.091303,57.505401 Z"
        id="path11321" />
     <path
-       style="opacity:0.95;fill:#303841;fill-opacity:1;stroke-width:0.284147"
+       style="opacity:0.95;fill:#000080;fill-opacity:1;stroke-width:0.284147"
        d="M 33.495075,33.560036 C 6.6361734,32.996386 9.9166774,10.438266 9.9166774,10.438266 Z"
        id="path11323" />
     <path
-       style="opacity:0.95;fill:#816fbf;fill-opacity:0.88601;stroke-width:0.120075"
+       style="opacity:0.95;fill:#ffff00;fill-opacity:0.88601;stroke-width:0.120075"
        d="m 129.02349,51.011574 c -5.3912,-14.66558 0.1773,-19.64823 0.1773,-19.64823 z"
        id="path12301" />
     <path
-       style="opacity:0.95;fill:#816fbf;fill-opacity:1;stroke-width:0.277873"
+       style="opacity:0.95;fill:#ffff00;fill-opacity:1;stroke-width:0.277873"
        d="m 35.439414,33.384145 c 4.537597,-26.0837744 26.013025,-21.4485 26.013025,-21.4485 z"
        id="path12303" />
     <path
