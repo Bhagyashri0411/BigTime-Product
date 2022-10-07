@@ -871,6 +871,23 @@
         padding: 0 !important;
         margin-bottom: 20px;
     }
+    .capabilities .cabtab-wrap {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .capabilities .tbcontent-wrap .tab-content .tab-pane {
+        padding: 0px 10px;
+    }
+    .capabilities .cabtab-wrap .nav-tabs .nav-link.active, .capabilities .cabtab-wrap .nav-tabs .nav-link {
+        padding:30px 10px;
+        font-size: 16px;
+    }
+    .capabilities .main-head {
+        font-size: 30px;
+    }
+    .capabilities .overlay p {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
@@ -928,8 +945,7 @@
 
     .user-all-form .contact-form .forget {
         float: right
-    }
-
+    } 
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -1653,6 +1669,12 @@
 
     .coming-soon-area .coming-soon-content #timer div::before {
         display: none
+    }
+    .capabilities .tbcontent-wrap .tab-content .tab-pane {
+        padding: 0 20px !important;
+    }
+    .capabilities .cabtab-wrap {
+        padding: 20px !important;
     }
 }
 

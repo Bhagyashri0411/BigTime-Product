@@ -158,59 +158,8 @@
 
       </div>
    </section>
-   <!-- about section ends -->
-
-   <div class="row service-home">
 
 
-      <div class="col-lg-3 col-md-6 text-center">
-
-         <div class="showingicon icon row">
-
-            <div
-               class="bg-img align-self-center col-md-12 rocket-lazyload entered lazyloaded"
-               style="background-image: url(&quot;https://vajraglobal.com/wp-content/uploads/2021/02/1-1.svg&quot;);">
-
-               <img src="https://vajraglobal.com/wp-content/uploads/2021/02/1.svg" title="User experience &amp; design"
-                  alt="User experience &amp; design" height="150" width="150"
-                  data-lazy-src="https://vajraglobal.com/wp-content/uploads/2021/02/1.svg" data-ll-status="loaded"
-                  class="entered lazyloaded"><noscript><img
-                     src="https://vajraglobal.com/wp-content/uploads/2021/02/1.svg" title="User experience & design"
-                     alt="User experience & design" / height="150" width="150"></noscript>
-
-            </div>
-
-            <div class="bg-img align-self-end col-md-12">
-
-               <h3>User experience &amp; design</h3>
-
-            </div>
-
-         </div>
-
-         <div class="icon icon-hover d-flex">
-
-            <div
-               class="bg-img align-self-center rocket-lazyload entered lazyloaded"
-               style="background-image: url(&quot;https://vajraglobal.com/wp-content/uploads/2021/02/1-1.svg&quot;);"
-               height="" width="" data-ll-status="loaded">
-
-               <p class="newhead1">User experience &amp; design</p>
-
-               <p>Visual communication that engages and intuitively drives the user journey and actions is a fine
-                  balance of art and business goals. Experience our design!</p>
-
-                  
-
-            </div>
-
-         </div>
-
-      </div>
-
-
-   </div>
-   <!-- custom js file link  -->
    <script src="js/script.js"></script>
    <?php
       include './jsfileconnection/js.html';
