@@ -18,8 +18,7 @@
    <!-- home section starts  -->
 
 <?php
- include './Pages/home.php';
-   include './Pages/client.php';   
+ include './Pages/home.php'; 
 include './jsfileconnection/js.html';
 include './Components/footer.html'
 ?>

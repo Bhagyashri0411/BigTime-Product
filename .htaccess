@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^home?$ index.php
+RewriteRule ^about-us?$ about.php
+RewriteRule ^contact-us?$ contact.php
+RewriteRule ^autheyJsb2dpbm5hbWUiOiJhZG1pbiIsInBhc3N3b3JkIjoiYWRtaW4iLCJuYW1lIjoiYmhhZ3lhc2hyaSJ9?$ Dashboard/login.php

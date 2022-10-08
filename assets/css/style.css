@@ -3247,12 +3247,13 @@ Footer Area
 .footer-widget h3 {
     margin-top: 43px;
     font-size: 24px;
-    color: #303841;
+    color: #fff;
     margin-bottom: 40px;
 }
 
 .footer-widget p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #fff;
 }
 
 .footer-widget .social-link {
@@ -3281,8 +3282,8 @@ Footer Area
 }
 
 .footer-widget .social-link li a:hover {
-    background-color: #303841;
-    color: #f5f5f5;
+    background-color: #fe6d0c;
+    color: #fff;
     border-radius: 50px;
 }
 
@@ -3303,7 +3304,7 @@ Footer Area
 }
 
 .footer-widget .footer-list li a:hover {
-    color: #303841;
+    color: #fff;
     letter-spacing: 0.15px;
 }
 
@@ -3315,14 +3316,14 @@ Footer Area
 
 .footer-widget .footer-list-two li {
     display: block;
-    color: #303841;
+    color: #fff;
     margin-bottom: 7px;
     position: relative;
     padding-left: 30px;
 }
 
 .footer-widget .footer-list-two li i {
-    color: #303841;
+    color: #fff9;
     margin-right: 5px;
     position: absolute;
     left: 0;
@@ -3331,20 +3332,9 @@ Footer Area
 }
 
 .footer-widget .footer-list-two li a {
-    color: #303841;
+    color: #fff;
 }
 
-.footer-widget .footer-list-two li:hover {
-    color: #303841;
-}
-
-.footer-widget .footer-list-two li:hover i {
-    color: #303841;
-}
-
-.footer-widget .footer-list-two li:hover a {
-    color: #303841;
-}
 
 .footer-widget .newsletter-form {
     position: relative;
@@ -3580,14 +3570,24 @@ Animation CSS End
 .capabilities .tbcontent-wrap .tab-content .tab-pane {
     padding: 0px 80px;
 }
-.capabilities .main-head {
-    font-size: 36px;
+.main-head {
+    font-size: 30px;
     line-height: 45px;
     margin-bottom: 35px;
     color: rgb(12, 60, 96);
 }
+.main-head::before {
+    content: '';
+    width: 80px;
+    height: 10px;
+    border-radius: 5px;
+    display: block;
+    background: #fe6d0c;
+    transition: width .2s ease;
+    -webkit-transition: width .2s;
+}
 .capabilities .overlay p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.9;
 }
@@ -3608,7 +3608,7 @@ Animation CSS End
     width: 100%;
     position: relative;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     font-family: Poppins, sans-serif;
     background-size: 15px;
     border-width: 0px 0px 1px;
