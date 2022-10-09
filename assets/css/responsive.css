@@ -208,7 +208,7 @@
         margin-bottom: 20px
     }
 
-    .banner-content p {
+    .banner-content p, .mainheading p{
         margin-bottom: 20px;
         font-size: 16px
     }
@@ -520,7 +520,7 @@
         margin-bottom: 15px
     }
 
-    .guidelines-content-two .content h3 {
+    .guidelines-content-two .content h3, .services-about .image .services-details-item h3 {
         font-size: 20px
     }
 
@@ -888,6 +888,10 @@
     .capabilities .overlay p {
         font-size: 16px;
     }
+    .services-about{
+        display: grid;
+        gap: 1%;
+    }
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
@@ -946,6 +950,10 @@
     .user-all-form .contact-form .forget {
         float: right
     } 
+    .col-ml-4{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -1011,7 +1019,7 @@
         padding-top: 10px
     }
 
-    h3 {
+    h3 .services-details-content .services-item-area .services-details-item h3, .services-about .image .services-details-item h3 {
         font-size: 21px
     }
 
@@ -1129,7 +1137,7 @@
         margin-bottom: 20px
     }
 
-    .banner-content p {
+    .banner-content p , .mainheading p{
         margin-bottom: 20px;
         font-size: 16px
     }
