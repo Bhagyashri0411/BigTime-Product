@@ -15,9 +15,20 @@
     <?php
     include './Components/header.html';
     ?>
-
+<div class="heading" style="background:url(./assets/img/background/cover.png) no-repeat">
+    <div class="inner-banner">
+        <div class="inner-title text-center">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><i class="bx bxs-chevron-right"></i></li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+</div>
     <!-- booking section starts  -->
-    <section>
+    <div class='container'>
         <div class="row">
             <div class="col-lg-4 col-sm-6 col-md-4">
                 <div class="contact-card">
@@ -58,7 +69,7 @@
             </div>
 
         </div>
-    </section>
+</div>
     <div class="booking">
 
         <div class="contact-section pb-10">

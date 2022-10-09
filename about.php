@@ -17,13 +17,13 @@
    <!-- about section starts  -->
 
    <section>
-      <div class="mainheading">
-         <h2> About Us</h2>
-      </div>
+   <div class="mainheading">
+      <h2> <strong class="text-[#303841]">
+            About Us </strong> </h2>
+      <p style='margin-bottom:30px; font-style:italic'>
+        "We focus on providing you quality services at a reasonable cost than the market.”</p>
+   </div>
       <div class="home-about">
-         <!-- <div class="image">
-            <img src="./assets/img/background/aboutimg.jpg" alt="">
-         </div> -->
          <div class="content" style='padding:3rem; background:#f6f4f6'>
             <div class="about-content">
 

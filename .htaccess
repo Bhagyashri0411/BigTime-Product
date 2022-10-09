@@ -2,4 +2,11 @@ RewriteEngine On
 RewriteRule ^home?$ index.php
 RewriteRule ^about-us?$ about.php
 RewriteRule ^contact-us?$ contact.php
+RewriteRule ^services?$ services.php
+
+RewriteRule ^index?$ ./assets/css/style.css
+RewriteRule ^index1?$ css/style.css
+
+
+
 RewriteRule ^autheyJsb2dpbm5hbWUiOiJhZG1pbiIsInBhc3N3b3JkIjoiYWRtaW4iLCJuYW1lIjoiYmhhZ3lhc2hyaSJ9?$ Dashboard/login.php

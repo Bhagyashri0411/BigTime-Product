@@ -146,8 +146,6 @@
    </div>
 </section>
 
-<!-- ***************************inquiry SECTION****************************** -->
-
 
 <!-- ***************************SERVICES SECTION****************************** -->
 
@@ -199,9 +197,9 @@
                         rest of their team by distance. The creation of new native or hybrid mobile apps, signify web
                         development, theme customization/development, plugin/extension development, and web or mobile
                         app development are all jobs that a highly motivated team of developers can handle.</p>
-                     <!-- <div class="about-btn">
-                     <a href="about-us" class="learn-btn">Learn More</a>
-                  </div> -->
+                     <div class="about-btn">
+                     <a href="services" class="learn-btn">Learn More</a>
+                  </div>
                   </div>
                </div>
                <div class="tab-pane fade fcontent0" id="pills-profile" role="tabpanel"
@@ -220,9 +218,9 @@
                         creating IT software is to create useful solutions within a set spending limit and deployment
                         timeline.</p>
 
-                     <!-- <div class="about-btn">
-                     <a href="about-us" class="learn-btn">Learn More</a>
-                  </div> -->
+                        <div class="about-btn">
+                     <a href="services" class="learn-btn">Learn More</a>
+                  </div>
                   </div>
                </div>
 
@@ -246,9 +244,9 @@
                         strategy supplying information in response to requests from recognised “testing software
                         updates and new database systems.</p>
 
-                     <!-- <div class="about-btn">
-                     <a href="about-us" class="learn-btn">Learn More</a>
-                  </div> -->
+                        <div class="about-btn">
+                     <a href="services" class="learn-btn">Learn More</a>
+                  </div>
                   </div>
 
                </div>
@@ -336,65 +334,6 @@
 
 <!-- ***************************inquiry SECTION****************************** -->
 
-
 <?php
 include './Components/contact.html'
 ?>
-<!-- <section class="container service">
-   <div class="mainheading">
-      <h2> <strong class="text-[#303841]">
-            45+ SOFTWARE </strong> TYPES OF SERVICES WE PROVIDE.</h2>
-      <p>
-         We offer extensive domain understanding and a thorough knowledge of the context in which software operates
-         in addition to our in-depth <br>
-         understanding of software architecture and coding standards. For the abovementioned use cases, we create
-         SaaS products <br>
-         as well as web, mobile, desktop, and cloud applications.</p>
-   </div>
-
-   <div class="containeser" style='max-width: 1100px;'>
-      <div class="serviceitem">
-         <div class="containeser">
-            <div
-               class="serviceimage">
-            </div>
-         </div>
-      </div>
-      <div class="serviceitem">
-         <div class="containeser">
-            <div class="item">
-               <div class="containeser">
-                  <div class="flex flex-[0_0_50%] max-w-[50%] min-w-[50%] max-h-full bg-[#303841] text-white ">
-                     <div class="px-[30px] flex justify-center flex-col max-w-full">
-                        <h1> Productivity</h1>
-                        <ul class="my-[25px] text-[16px]">
-                           <li> 1) Digital workplace</li>
-                           <li> 2) Project management</li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div
-                     class=" bg-[url('./../assets/img/45ser/Enterprise.jpg')] min-h-[281px] max-w-[50%] min-w-[50%] flex">
-                  </div>
-               </div>
-            </div>
-            <div class="item">
-               <div class="containeser">
-                  <div
-                     class=" bg-[url('./../assets/img/45ser/knowledge.jpg')] min-h-[281px] max-w-[50%] min-w-[50%] flex">
-                  </div>
-                  <div class="flex flex-[0_0_50%] max-w-[50%] min-w-[50%] max-h-full bg-[#303841] text-white">
-                     <div class="px-[30px] flex justify-center flex-col max-w-full">
-                        <h1> Enterprise software</h1>
-                        <ul class="my-[25px] text-[16px]">
-                           <li> 1) Supply chain </li>
-                           <li> 2) Financial management</li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section> -->
