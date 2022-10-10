@@ -15,14 +15,24 @@
     ?>
 
    <!-- about section starts  -->
-
-   <section>
-   <div class="mainheading">
-      <h2> <strong class="text-[#303841]">
-            About Us </strong> </h2>
-      <p style='margin-bottom:30px; font-style:italic'>
-        "We focus on providing you quality services at a reasonable cost than the market.”</p>
+   <div class="heading" style="background:url(./assets/img/background/cover.png) no-repeat">
+      <div class="inner-banner">
+         <div class="mainheading">
+            <h2> <strong> About Us </strong> </h2>
+            <p>
+               We focus on providing you quality services at a reasonable cost than the market.</p>
+         </div>
+         <div class="inner-title text-center">
+            <ul>
+               <li><a href="home">Home</a></li>
+               <li><i class="bx bxs-chevron-right"></i></li>
+               <li>About Us</li>
+            </ul>
+         </div>
+      </div>
    </div>
+   <section>
+
       <div class="home-about">
          <div class="content" style='padding:3rem; background:#f6f4f6'>
             <div class="about-content">
@@ -122,14 +132,6 @@
                                  <h3>Internet of Things </h3>
                                  <p>Software that allows for fast processing and mining of data captured by physical
                                     objects.</p>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-6">
-                              <div class="services-details-item">
-                                 <i class="fa fa-lock" aria-hidden="true"></i>
-                                 <h3>Computer vision</h3>
-                                 <p>Software to recognize patterns and classify objects in digital images and videos.
-                                 </p>
                               </div>
                            </div>
                            <div class="col-lg-4 col-md-6">
