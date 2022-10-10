@@ -15,18 +15,23 @@
     <?php
     include './Components/header.html';
     ?>
-<div class="heading" style="background:url(./assets/img/background/cover.png) no-repeat">
-    <div class="inner-banner">
-        <div class="inner-title text-center">
-            <h3>Services</h3>
+ <div class="heading" style="background:url(./assets/img/background/cover.png) no-repeat">
+      <div class="inner-banner">
+         <div class="mainheading">
+            <h2> <strong> Services </strong> </h2>
+            <p>We are always here to help you with our open arms.Connect us through email,social media, and telephone.Feel free to contact us anytime.
+              
+            </p>
+         </div>
+         <div class="inner-title text-center">
             <ul>
-                <li><a href="home">Home</a></li>
-                <li><i class="bx bxs-chevron-right"></i></li>
-                <li>Our Services</li>
+               <li><a href="home">Home</a></li>
+               <li><i class="bx bxs-chevron-right"></i></li>
+               <li>Services</li>
             </ul>
-        </div>
-    </div>
-</div>
+         </div>
+      </div>
+   </div>
 
 <section class="service">
    <div class="mainheading">

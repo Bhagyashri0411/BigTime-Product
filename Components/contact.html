@@ -1,81 +1,153 @@
-<section class="container">
-   <div class="mainheading">
-      <h2> Start A Projects</h2>
-   </div>
-   <div class="home-about">
+<section style="padding-bottom: 0;">
+   <div class="container">
+      <div class="row">
+         <div class="col-12">
+            <div class="form-contact">
+               <div class="row">
+                  <div class="col-lg-4 col-sm-6 col-md-4">
+                     <div class="contact-card">
+                        <i class="bx bxs-phone"></i>
+                        <div class="content">
+                           <h3>Call Us</h3>
+                           <p><a href="tel:+918766579139">+91 8766579139</a></p>
 
-      <div class="image">
-         <img src="./assets/img/background/contactus.jpg" alt="" class="w-full max-w-full">
-      </div>
-      <div class="content" style='padding:3rem;background:#f6f4f6'>
-         <div class="messhow">
-            <div class="error-text1"> </div>
-         </div>
-         <form action="" method="POST" enctype="multipart/form-data" id="resetconn">
-            <div class="row">
-               <h4>Let’s Discuss You</h4>
-               <div class="input-group input-group-icon">
-                  <input type="text" placeholder="Your Company name" name="comname" id="projecttextfield">
-                  <div class="input-icon"><i class="fa fa-user"></i></div>
-               </div>
-               <div class="input-group input-group-icon">
-                  <input type="text" placeholder="Your Company E-mail Address" name="comemail" id="projectmailfield">
-                  <div class="input-icon"><i class="fa fa-envelope"></i></div>
-               </div>
-               <div class="input-group input-group-icon">
-                  <input type="number" placeholder="Your Company Mobile number" name="comnumber"
-                     id="projectmobilefield">
-                  <div class="input-icon"><i class="fa-solid fa-phone"></i></div>
-               </div>
-               <div class="input-group input-group-icon">
-                  <select name="droproject">
-                     <option value="" selected="" disabled="" hidden="">Project Requirements</option>
-                     <option value="Hire remote developers"> Hire remote developers</option>
-                     <option value="Dedicated monitoring team for exciting software"> Dedicated monitoring team for
-                        exciting software</option>
-                     <option value="Data entry &amp; admin services"> Data enter &amp; admin services</option>
-                     <option value="Consulting services">Consulting services</option>
-                  </select>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-6 col-md-4 offset-lg-0 offset-md-0 offset-sm-3">
+                     <div class="contact-card">
+                        <i class="bx bx-envelope"></i>
+                        <div class="content">
+                           <h3>Email</h3>
+                           <p><a href="mailto:info@bigtime.co.in">
+                                 info@bigtime.co.in</a>
+                           </p>
+
+
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-sm-6 col-md-4">
+                     <div class="contact-card">
+                        <i class="bx bx-map"></i>
+                        <div class="content">
+                           <h3>Address</h3>
+                           <p>
+                              CDRN- 1A,Bhusawal, Maharashtra- India 425201
+                           </p>
+
+                        </div>
+                     </div>
+                  </div>
+
                </div>
             </div>
+         </div>
+      </div>
+   </div>
+</section>
+<div class="banner-post">
 
-            <div class="row">
-               <div class="input-group about-content" style="justify-content: center;">
-                  <div class="about-btn ">
-                     <a href="about-us" class="learn-btn" style='background-color:#fe6d0c;' onclick="FunStart()">Sumbit</a>
+   <section>
+      <div class="row align-items-lg-center">
+         <div class="mainheading">
+            <h2 style="color: #fff;"> START A PROJECT </h2>
+            <p style="color: #fff;">Let’s Discuss You</p>
+         </div>
+         <div class="col-12">
+            <form  id="resetconn" enctype="multipart/form-data"
+            action="./php/Contact.php" method="POST" data-error="Please fill all required fields">
+            <div class="error-text1"></div>
+               <div class="row">
+                  <div class="col-12">
+                     <div class="row ">
+                        <div class="col-md-6 col-lg-4">
+                           <div class="input-group input-group-icon">
+                              <input type="text" placeholder="Your Company name" name="comname" id="projecttextfield">
+                              <div class="input-icon"><i class="fa fa-user"></i></div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                           <div class="input-group input-group-icon">
+                              <input type="text" placeholder="Your Company E-mail Address" name="comemail"
+                                 id="projectmailfield">
+                              <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-lg-4">
+                           <div class="input-group input-group-icon">
+                              <input type="number" placeholder="Your Company Mobile number" name="comnumber"
+                                 id="projectmobilefield">
+                              <div class="input-icon"><i class="fa-solid fa-phone"></i></div>
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="input-group input-group-icon">
+                              <select name="droproject">
+                                 <option value="" selected="" disabled="" hidden="">Project Requirements</option>
+                                 <option value="Hire remote developers"> Hire remote developers</option>
+                                 <option value="Dedicated monitoring team for exciting software"> Dedicated
+                                    monitoring
+                                    team for
+                                    exciting software</option>
+                                 <option value="Data entry &amp; admin services"> Data enter &amp; admin services
+                                 </option>
+                                 <option value="Consulting services">Consulting services</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="input-group input-group-icon">
+                              <textarea class="input-style" name="usermessage" placeholder="Message" id="usermesfield"
+                                 required=""></textarea>
+                           </div>
+                        </div>
+                        <div class="col-12 text-center">
+                           <div class="input-group about-content" style="justify-content: center;">
+                              <div class="about-btn ">
+                                 <input type="submit" value="Submit" class="learn-btn" style='background-color:#fe6d0c;'/>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
                   </div>
                </div>
-            </div>
-         </form>
+            </form>
+
+         </div>
       </div>
-   </div>
+   </section>
 
-</section>
+</div>
+
 <script>
-   function FunStart() {
-      console.log('hii');
-      var errortxt = document.querySelector('.error-text1');
+   // function FunStart() {
+   //    console.log('hii');
+   //    var errortxt = document.querySelector('.error-text1');
 
-      var form = document.querySelector('.content form')
-      let xhr = new XMLHttpRequest();
-      xhr.open('POST', "./php/Contact.php", true);
-      xhr.onload = () => {
-         if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status == 200) {
-               let data = xhr.response;
-               if (data == "Your Information is Successfully added.") {
-                  document.getElementById('resetconn').reset();
-                  errortxt.textContent = "Your Information is Successfully added.";
-               }
-               else {
-                  errortxt.textContent = data;
-                  errortxt.style.display = 'block';
-               }
-            }
-         }
-      }
+   //    var form = document.querySelector('.banner-post form')
+   //    let xhr = new XMLHttpRequest();
+   //    xhr.open('POST', "./php/Contact.php", true);
+   //    xhr.onload = () => {
+   //       if (xhr.readyState === XMLHttpRequest.DONE) {
+   //          if (xhr.status == 200) {
+   //             let data = xhr.response;
+   //             if (data == "Your Information is Successfully added.") {
+   //                document.getElementById('resetconn').reset();
+   //                window.location.href= './thank-you'
+   //             }
+   //             else {
+   //                errortxt.textContent = data;
+   //                errortxt.style.display = 'block';
+   //             }
+   //          }
+   //       }
+   //    }
 
-      let fromcondata = new FormData(form);
-      xhr.send(fromcondata);
-   }
+   //    let fromcondata = new FormData(form);
+   //    xhr.send(fromcondata);
+   // }
 </script>

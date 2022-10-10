@@ -58,13 +58,24 @@ section {
    padding-bottom: 15rem;
 }
 
-.heading h1 {
-   font-size: 10rem;
-   text-transform: uppercase;
+.heading p {
+   font-size: 16px;
+   text-transform: capitalize;
    color: var(--white);
    text-shadow: var(--text-shadow);
 }
-
+.heading .mainheading{
+   max-width: 600px;
+   margin: auto;
+}
+.heading .mainheading h2{
+   text-align: center;
+   font-size: 30px;
+   text-transform: uppercase;
+   font-weight: 500;
+   padding-bottom: 2rem;
+   color: var(--white);
+}
 .btn {
    display: inline-block;
    background: var(--black);
@@ -539,7 +550,7 @@ section {
    padding-bottom: 3rem;
    color: var(--main-color);
 }
-.mainheading p{
+.mainheading p, .section-title-block p{
    line-height: 30px;
    font-weight: 600;
    font-size: 18px;
@@ -647,7 +658,7 @@ input,
 input[type="radio"]+label,
 input[type="checkbox"]+label:before,
 select option,
-select {
+select , textarea{
    width: 100%;
    padding: 1em;
    line-height: 1.4;
@@ -824,10 +835,10 @@ display: none;
    letter-spacing: -1px;
 }
 .partners img {
-   width: 180px;
-   height: 65px;
+   width: 150px;
+   height: 55px;
    margin-bottom: 60px;
 }
 .partners img.styleimg{
 
-   height:100px; width:200px; margin-bottom:10px}
+   height:80px; width:150px; margin-bottom:10px}

@@ -56,7 +56,8 @@ else{
 }
 .btn {
     display: inline-block;
-    background: #000;
+    background-color: #fe6d0c;
+    border:0;
     color: #fff;
     font-size: 1rem;
     text-decoration: none;
@@ -108,7 +109,15 @@ else{
     background-color: #303841;
     color: #fff;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-header a{
+  padding: 8px 15px;
+    background-color: #fe6d0c;
+    text-decoration: none;
+    color: #fff;
+
 }
 
 .modal-body {
@@ -151,7 +160,9 @@ else{
   <div class="modal-content">
     <div class="modal-header">
         <h2>Login Information</h2>
+        <a href='home'>X</a>
     </div>
+
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     <div class="modal-body">
         <div class="main-bodyi">

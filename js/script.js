@@ -105,3 +105,7 @@ const investinquiry =()=>{
   // let fordata = new FormData(form);
   // xhr.send(fordata);
 }
+// $('.counterss').counterUp({
+//   delay: 10,
+//   time: 1000
+// });

@@ -35,37 +35,6 @@
                   developers are up-to-date on the most exciting developments.
                </p>
 
-               <div class="row">
-                  <div class="col-lg-4 col-md-4 pe-0">
-                     <div class="about-counter">
-                        <i class="fa fa-users" aria-hidden="true"></i>
-                        <div class="contentdiv">
-                           <h3>15+</h3>
-                           <span>Years Experience</span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 pe-0">
-                     <div class="about-counter">
-                        <i class="fa fa-headphones" aria-hidden="true"></i>
-                        <div class="contentdiv">
-                           <h3>24/7</h3>
-                           <span>Support</span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 pe-0">
-                     <div class="about-counter">
-                        <i class="fa fa-briefcase" aria-hidden="true"></i>
-                        <div class="contentdiv">
-                           <h3>1000+</h3>
-                           <span>Business Guide</span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-
-
 
                <div class="about-btn">
                   <a href="about-us" class="learn-btn">Learn More</a>
@@ -79,9 +48,84 @@
    </section>
 
 </div>
+
+<!-- ***************************counters SECTION****************************** -->
+
+<section class='counter'>
+   <div  class="row bg-image rocket-lazyload entered" >
+
+
+      <div class="col-lg-3 col-md-6 p-0 text-center">
+
+         <div class="bord bord-0">
+
+         <div class="about-counter">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <div class="contentdiv">
+                           <h3 class='counterss'>17000+</h3>
+                           <span>Working Hours</span>
+                        </div>
+                     </div>
+
+         </div>
+
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 p-0 text-center">
+
+         <div class="bord bord-1">
+         <div class="about-counter">
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <div class="contentdiv">
+                           <h3 class='counterss'>24/7</h3>
+                           <span>Support</span>
+                        </div>
+                     </div>
+
+         </div>
+
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 p-0 text-center">
+
+         <div class="bord bord-2">
+
+         <div class="about-counter">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <div class="contentdiv">
+                           <h3 class='counterss'>300+</h3>
+                           <span>Projects Delivered</span>
+                        </div>
+                     </div>
+         </div>
+
+      </div>
+
+
+      <div class="col-lg-3 col-md-6 p-0 text-center">
+
+         <div class="bord bord-3" style='border-right:0'>
+
+         <div class="about-counter">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        <div class="contentdiv">
+                           <h3 class='counterss'>50+</h3>
+                           <span>Technology supports</span>
+                        </div>
+                     </div>
+
+         </div>
+
+      </div>
+
+   </div>
+</section>
+
 <!-- ***************************SERVICE SECTION****************************** -->
 
-<section class="home-packages" id='ser'>
+<section class="home-packages">
    <div class="mainheading">
       <h2> services</h2>
    </div>
@@ -198,8 +242,8 @@
                         development, theme customization/development, plugin/extension development, and web or mobile
                         app development are all jobs that a highly motivated team of developers can handle.</p>
                      <div class="about-btn">
-                     <a href="services" class="learn-btn">Learn More</a>
-                  </div>
+                        <a href="services" class="learn-btn">Learn More</a>
+                     </div>
                   </div>
                </div>
                <div class="tab-pane fade fcontent0" id="pills-profile" role="tabpanel"
@@ -218,9 +262,9 @@
                         creating IT software is to create useful solutions within a set spending limit and deployment
                         timeline.</p>
 
-                        <div class="about-btn">
-                     <a href="services" class="learn-btn">Learn More</a>
-                  </div>
+                     <div class="about-btn">
+                        <a href="services" class="learn-btn">Learn More</a>
+                     </div>
                   </div>
                </div>
 
@@ -244,9 +288,9 @@
                         strategy supplying information in response to requests from recognised “testing software
                         updates and new database systems.</p>
 
-                        <div class="about-btn">
-                     <a href="services" class="learn-btn">Learn More</a>
-                  </div>
+                     <div class="about-btn">
+                        <a href="services" class="learn-btn">Learn More</a>
+                     </div>
                   </div>
 
                </div>
