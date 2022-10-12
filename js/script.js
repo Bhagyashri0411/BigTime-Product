@@ -1,9 +1,9 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
-menu.onclick = () =>{
-   menu.classList.toggle('fa-times');
-   navbar.classList.toggle('active');
+menu.onclick = () => {
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
 };
 
 // window.onscroll = () =>{
@@ -11,38 +11,43 @@ menu.onclick = () =>{
 //    navbar.classList.remove('active');
 // };
 
-// var swiper = new Swiper(".home-slider", {
-//   loop:true,
-//   navigation: {
-//      nextEl: ".swiper-button-next",
-//      prevEl: ".swiper-button-prev",
-//   },
-// });
+var swiper = new Swiper(".home-slider", {
+  direction: 'horizontal',
+  loop: true,
+  loopedSlides: 50,
+  observer: true,
+  obsereParents: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
 
-var swiper = new Swiper(".reviews-slider", {
-  //  grabCursor:true,
-   loop:true,
-   autoHeight:true,
-   spaceBetween: 25,
-  //  speed: 400,
-  //  allowTouchMove: true,
-   autoplay: 
-   {
-     delay: 4000,
-   },
-   breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      450: {
-         slidesPerView: 2,
-       },
-      700: {
-        slidesPerView: 3,
-      },
-   
-   }
+  // If we need pagination
+  pagination: {
+    el: '.slider__pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    prevEl : '.owl-prev',
+    nextEl: '.owl-next',
+  },
 });
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  // responsive: {
+  //   0: {
+  //     items: 1
+  //   },
+  //   600: {
+  //     items: 3
+  //   },
+  //   1000: {
+  //     items: 5
+  //   }
+  // }
+})
 
 let loadMoreBtn = document.querySelector('.packages .load-more .btn');
 let currentItem = 3;
@@ -57,32 +62,32 @@ let currentItem = 3;
 //       loadMoreBtn.style.display = 'none';
 //    }
 // }
-const investinquiry =()=>{
+const investinquiry = () => {
   var form = document.querySelector('.contact-form form');
   let username = $('#name').val();
   let useremail = $('#email').val();
   let userphone = $('#phone').val();
   let userserviceCat = $('#type_big').val();
   let investservice = $('#servicename').val();
-  let investLimit =$('#limitandmsg').val();
+  let investLimit = $('#limitandmsg').val();
   let loanService = $('#loginname').val();
   let loanMsg = $('#msg').val();
 
   if (userserviceCat == 'invest') {
-    var JsonInvest = {'name': username, 'email': useremail, 'phone': userphone, 'servicetype':userserviceCat, 'servicename':investservice , 'investLimit': investLimit}
+    var JsonInvest = { 'name': username, 'email': useremail, 'phone': userphone, 'servicetype': userserviceCat, 'servicename': investservice, 'investLimit': investLimit }
   }
   else if (userserviceCat == 'loan') {
-    var JsonInvest = {'name': username, 'email': useremail, 'phone': userphone, 'servicetype':userserviceCat, 'servicename':loanService , 'investLimit': loanMsg}
+    var JsonInvest = { 'name': username, 'email': useremail, 'phone': userphone, 'servicetype': userserviceCat, 'servicename': loanService, 'investLimit': loanMsg }
   }
 
-  $.post('./php/inquiry.php',JsonInvest, function(data){
-      $('#result').html(data);
-      if (data == 'warning') {
-        alert('invest')
-      }
-      else if (data== 'warning1')  {
-        alert('loan')
-      }
+  $.post('./php/inquiry.php', JsonInvest, function (data) {
+    $('#result').html(data);
+    if (data == 'warning') {
+      alert('invest')
+    }
+    else if (data == 'warning1') {
+      alert('loan')
+    }
   })
 
   // let xhr = new XMLHttpRequest();
@@ -98,7 +103,7 @@ const investinquiry =()=>{
   //         alert('checldncdm')
   //       }
   //     }
-      
+
   //   }
   // }
 

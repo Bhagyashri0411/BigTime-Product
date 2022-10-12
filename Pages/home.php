@@ -1,6 +1,6 @@
 <section class="home">
 
-   <div class="swiper-slide slide" style="background:url(./assets/img/background/home.jpg) no-repeat">
+   <div class="slide" style="background:url(./assets/img/background/home.jpg) no-repeat">
       <div class="content">
          <h3><strong style='font-weight: 600'>BIGTIME </strong>TECHNOLOGY <strong style='font-weight: 600'> SOFTWARE
             </strong> DEVELOPMENT <strong style='font-weight: 600'> SERVICES </strong></h3>
@@ -62,7 +62,7 @@
          <div class="about-counter">
                         <i class="fa fa-users" aria-hidden="true"></i>
                         <div class="contentdiv">
-                           <h3 class='counterss'>17000+</h3>
+                           <h3 class='counterss counter'>17000+</h3>
                            <span>Working Hours</span>
                         </div>
                      </div>
@@ -78,7 +78,7 @@
          <div class="about-counter">
                         <i class="fa fa-headphones" aria-hidden="true"></i>
                         <div class="contentdiv">
-                           <h3 class='counterss'>24/7</h3>
+                           <h3 class='counterss counter'>24/7</h3>
                            <span>Support</span>
                         </div>
                      </div>
@@ -95,7 +95,7 @@
          <div class="about-counter">
                         <i class="fa fa-briefcase" aria-hidden="true"></i>
                         <div class="contentdiv">
-                           <h3 class='counterss'>300+</h3>
+                           <h3 class='counterss counter'>300+</h3>
                            <span>Projects Delivered</span>
                         </div>
                      </div>
@@ -111,7 +111,7 @@
          <div class="about-counter">
                         <i class="fa fa-cog" aria-hidden="true"></i>
                         <div class="contentdiv">
-                           <h3 class='counterss'>50+</h3>
+                           <h3 class='counterss counter'>50+</h3>
                            <span>Technology supports</span>
                         </div>
                      </div>
@@ -213,7 +213,7 @@
                   <li class="nav-item" role="presentation">
                      <a class="nav-link ftab0" id="pills-profile-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                        aria-selected="true"><span>Softwere Development</span></a>
+                        aria-selected="true"><span>Software Development</span></a>
 
                   </li>
                   <li class="nav-item" role="presentation">
@@ -249,7 +249,7 @@
                <div class="tab-pane fade fcontent0" id="pills-profile" role="tabpanel"
                   aria-labelledby="pills-profile-tab">
                   <div class="overlay">
-                     <h3 class="main-head">SOFTWERE DEVELOPMENT</h3>
+                     <h3 class="main-head">SOFTWARE DEVELOPMENT</h3>
 
 
                      <p>The method programmers use to create software applications is called software development.
@@ -313,7 +313,7 @@
       <div class="image">
 
          <h2 class="main-head">Our Clients</h2>
-         <p style='font-style:italic'>“We focus on providing you quality services at a reasonable cost than the market.”
+         <p style='font-style:italic'>We are honoured to collaborate on some outstanding projects with amazing people.
          </p>
 
       </div>
@@ -381,3 +381,10 @@
 <?php
 include './Components/contact.html'
 ?>
+
+<script>
+$('.counter').counterUp({
+   delay:10,
+   time:1000
+})
+</script>

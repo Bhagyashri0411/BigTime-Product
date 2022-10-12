@@ -4,6 +4,9 @@ RewriteRule ^about-us?$ about.php
 RewriteRule ^contact-us?$ contact.php
 RewriteRule ^services?$ services.php
 RewriteRule ^thank-you?$ thanku.php
+RewriteRule ^hire-developer?$ hire.php
+RewriteRule ^software-developer?$ softwere.php
+RewriteRule ^data-entry?$ dataentry.php
 
 RewriteRule ^index?$ ./assets/css/style.css
 RewriteRule ^index1?$ css/style.css

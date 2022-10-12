@@ -1,0 +1,22 @@
+[
+    {
+        "img": "./assets/img/background/Slide/services.jpg",
+        "head": "Services",
+        "para": "As a software development firm with more than five years of business excellence, we can create dependable, scalable, and secure software solutions for every OS, browser, and device. By combining our in-depth knowledge of the sector with the most recent IT developments, we deliver specialised products and solutions that properly suit the demands and characteristics of their customers."
+    },
+    {
+        "img": "./assets/img/background/Slide/project.jpg",
+        "head": "Projects",
+        "para": "Bigtime is dedicated to engineering optimal technological solutions that increase global earnings for international clients. We have a robust team of experienced software programmers in various technological sets ranging from mobility, web development, Blockchain, AI and more."
+    },
+    {
+        "img": "./assets/img/background/Slide/clients.jpg",
+        "head": "Clients",
+        "para": "We have delivered software services to various companies by instant developers, cutting-edge technology, skilled teams, cost efficiency, and time zone flexibility. Our team of specialised developers, designers, and innovators provides digital solutions based on the client's needs."
+    },
+    {
+        "img": "./assets/img/background/Slide/data.jpg",
+        "head": "Data Entry",
+        "para": "Hire Data Entry Experts of Bigtime and Get Work Completed on a secure and adaptable Platform, we provide a data entry service with error less, high level of data quality and integrity. We have a skilled data entry specialist for your project that makes sure the information is correct, helpful, and always relevant for any business or project.        "
+    }
+]

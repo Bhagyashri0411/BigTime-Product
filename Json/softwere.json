@@ -1,0 +1,37 @@
+[
+    {
+        "para" :"Web applications (web apps) are any kind of app accessed via an Internet browser on a smartphone, laptop, tablet, desktop, or any other kind of Internet-enabled device. Web apps require a browser and an Internet connection but do not need to be downloaded or updated in order to be accessed by the user. Unlike a relatively static and simple website, a web app is dynamic, changing the display based on user inputs or actions.",
+        "para1":"In mobile app architecture, there is both a front end and a back end (also referred to as frontend and backend or front-end and back-end), each requiring a different kind of software development.",
+        "name":"Web Application Development"
+    },
+    {
+        "para" : "All the components that show the web app to the user in the browser are on the front-end (client-side). Frameworks provide the fundamental templates and components for the frontend, which is constructed using",
+        "para1":"HTML, CSS, and JavaScript.",
+        "name":"Front-End Development"
+    },
+    {
+        "para" : "The whole of a web application's back-end, often known as the server-side or server side code, resides on the server. The back-end is fairly comprehensive with the database, web server, operating system, framework, and server-side languages like Python, PHP, Swift, Objective-C, JavaScript, Ruby, Kotlin, C#, C++, GO, and Dart, the back-end is fairly comprehensive.",
+        "para1":"Apart from coding, there are two specific areas of back-end development:",
+        "name":"Back-End Development"
+    },
+    {
+        "para" : "You are creating a database, which is a mechanism for storing and accessing electronic data, including both the code for your web application and data gathered from users. A database developer ought to be familiar with creating and maintaining data on well-known platforms like MySQL, MongoDB, Microsoft SQL Server, Oracle, or Redis.",
+        "para1":"A database developer is in charge of creating the database, modifying and designing existing or new schemes, and making sure they meet the needs of the users. This is distinct from a database administrator, who typically works on daily database maintenance, troubleshooting, and system implementation. The demands of the customer or business may cause the jobs of database administrator and developer to occasionally overlap.",
+        "name":"Database Development"
+    },
+    {
+        "para" : "Application Programming Interfaces (APIs) are pieces of software that enable two applications to communicate with one another. Typically, they establish a two-way link between web services and web servers to enable the transmission, interpretation, and readable presentation of data. An API developer uses the programming languages of the relevant platform, device, service, or website to build a bridge between two systems (how it functions and what it accesses). ",
+        "para1":"Utilizing APIs effectively may help firms innovate and expand by enabling them to link systems for both internal and external value.",
+        "name":"API Development"
+    },
+    {
+        "para" : "When using cloud computing, data is sent from local storage to distant servers for storing and processing (backend services). These cloud storage solutions, such as Amazon Web Services (AWS), Microsoft OneDrive, IDrive, or DropBox, are created through the process of cloud software development. In these situations, server space is rented based on bandwidth or the quantity of servers. Java, JS (NodeJS), Python, Erlang, and Go should be known by developers with an interest in cloud computing (among others).",
+        "para1":"Services, programmes, and applications that use the cloud are all included in cloud computing. That implies that, as long as the user has an internet connection and the proper login information, they may be viewed remotely from just about anywhere. They have a lot of benefits, such as scalability.",
+        "name":"Cloud Computing"
+    },
+    {
+        "para" : "According to the DevOps mindset, security is baked into the quick, iterative development procedures used by many organizations today. This ideology combines automated security measures with Agile IT. Software engineers need to be knowledgeable about programming, integration, and testing from both a theoretical and practical tool and framework perspective in order to use DevOps.DevOps engineers collaborate with groups that apply the concepts. They take part in the creation of the current product as well as the testing for quality assurance (QA) and final deployment. They need to be skilled in many different areas, including programming, integration, scripting, QA testing, and others. To assist and collaborate with the rest of the team, which may include software developers and QA specialists, they must also combine theory and practise.",
+        "para1":"Continuous Integration(CI) -In order to maintain the integrity of the programme, continuous integration requires that new user stories are generated, tested, and merged into the current system repeatedly (at least daily). Continuous integration may be managed with the use of automated testing, which guarantees that test findings are accurate and that there is no opportunity for human error.Continuous Deployment (CD) -In order to ensure that the DevOps team is always working on the most recent, high-quality code and that new features are always available to end users, continuous deployment builds on the above by having the development team work through errors, bugs, or new user stories while automating deployment. The CI/CD pipeline is the name given to this procedure when it is combined with continuous integration.",
+        "name":"DevOps"
+    }
+]
