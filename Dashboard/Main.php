@@ -93,6 +93,7 @@ if (isset($_SESSION['loginname'])) {
 		                <th>Company Email</th>
 		                <th>Company Mobile Number</th>
 		                <th>Company Requirment</th>
+		                   <th>Messages</th>
                         <!--<th>View More details</th>-->
 	                </tr>
                             </thead>
@@ -105,6 +106,7 @@ if (isset($_SESSION['loginname'])) {
 		                echo "<td>".$res['comemail']."</td>";	
 		                echo "<td>".$res['comnumber']."</td>";
 		                echo "<td>".$res['droproject']."</td>";
+		                echo "<td>".$res['usermessage']."</td>";
 		                echo "</tr>";
 	                    }
 	            ?>
