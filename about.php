@@ -38,10 +38,10 @@
             <div class="about-content">
 
                <div class="services-item-area">
-                  <div class="row">
+                  <div class="row gy-4">
 
                      <div class="col-lg-6 col-md-6">
-                        <div class="services-details-item" style='background:#fff; color:#303841'>
+                        <div class="services-details-item" style='background:#fff; color:#446563'>
                            <p> We have a dedicated staff of incredibly motivated, dynamic, and innovative engineers who
                               can be immediately deployed to assist drive things forward in your product roadmap or fast
                               iterate on new product ideas so you can focus on the critical areas of the business.
@@ -50,7 +50,7 @@
                         </div>
                      </div>
                      <div class="col-lg-6 col-md-6">
-                        <div class="services-details-item" style='background:#303841;'>
+                        <div class="services-details-item" style='background:#446563;'>
                            <p style=' color:#fff'> We are well-versed in the industry's most recent technology and
                               trends. This ensures that
                               we finish your project utilising the most recent techniques and that your developers are
@@ -59,7 +59,7 @@
                         </div>
                      </div>
                      <div class="col-lg-6 col-md-6">
-                        <div class="services-details-item" style='background:#303841;'>
+                        <div class="services-details-item" style='background:#446563;'>
                            <p style=' color:#fff'> Our organisation is well-equipped with cutting-edge technology and
                               tools. We strive to
                               disciplined and well-organized systems development. Performance, deliver, and win
@@ -69,7 +69,7 @@
                         </div>
                      </div>
                      <div class="col-lg-6 col-md-6">
-                        <div class="services-details-item" style='background:#fff; color:#303841'>
+                        <div class="services-details-item" style='background:#fff; color:#446563'>
                            <p>
                               Bigtime is dedicated to engineering optimal technological solutions that increase global
                               earnings for international clients. We have a robust team of experienced software
@@ -100,11 +100,11 @@
                         <h2> ADVANCED BUSINESS SOFTWARE</h2>
                      </div>
 
-                     <div class="services-item-area">
-                        <div class="row">
+                     <div class="services-item-area new">
+                        <div class="row gy-4">
                            <div class="col-lg-4 col-md-6">
                               <div class="services-details-item">
-                                 <i class="fa fa-tasks" aria-hidden="true"></i>
+                                 <img src="./assets/img/background/about/bigdata.webp" alt="">
                                  <h3> Bigdata </h3>
                                  <p>Scalable software that aggregates and processes huge volumes of data with high
                                     velocity.</p>
@@ -112,7 +112,7 @@
                            </div>
                            <div class="col-lg-4 col-md-6">
                               <div class="services-details-item">
-                                 <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                              <img src="./assets/img/background/about/AI.webp" alt="">
                                  <h3>Artificial intelligence </h3>
                                  <p> Software capable of drawing insights and triggering actions based on historical and
                                     real-time data processing.</p>
@@ -120,7 +120,7 @@
                            </div>
                            <div class="col-lg-4 col-md-6">
                               <div class="services-details-item">
-                                 <i class="fa fa-lock" aria-hidden="true"></i>
+                              <img src="./assets/img/background/about/datascience.webp" alt="">
                                  <h3>Data science</h3>
                                  <p>Software that can find sophisticated patterns in data and continuously learn to
                                     deliver more accurate results.</p>
@@ -128,7 +128,7 @@
                            </div>
                            <div class="col-lg-4 col-md-6">
                               <div class="services-details-item">
-                                 <i class="fa fa-exchange" aria-hidden="true"></i>
+                                 <img src="./assets/img/background/about/iot.webp" alt="">
                                  <h3>Internet of Things </h3>
                                  <p>Software that allows for fast processing and mining of data captured by physical
                                     objects.</p>
@@ -136,7 +136,7 @@
                            </div>
                            <div class="col-lg-4 col-md-6">
                               <div class="services-details-item">
-                                 <i class="fa fa-exchange" aria-hidden="true"></i>
+                                 <img src="./assets/img/background/about/AR.webp" alt="">
                                  <h3>Augmented reality </h3>
                                  <p>Software that creates fictional environment with 3D objects and realistic acoustics.
                                  </p>
@@ -144,7 +144,7 @@
                            </div>
                            <div class="col-lg-4 col-md-6">
                               <div class="services-details-item">
-                                 <i class="fa fa-exchange" aria-hidden="true"></i>
+                                 <img src="./assets/img/background/about/blockchain.webp" alt="">
                                  <h3>Blockchain </h3>
                                  <p>Blockchain development services help create decentralized apps that provide
                                     increased traceability and security of data and transactions.</p>

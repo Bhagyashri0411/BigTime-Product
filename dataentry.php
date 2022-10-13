@@ -65,7 +65,10 @@
 
             <div class='col-12'>
               <div class='bg-graylight'>
-                <h3 class='h2 font-bold mb-sm'> The Benefits of Hiring Bigtime for Online Data Entry</h3>
+                <div>
+                  <img src="./assets/img/services/data/Offline-DataEntry.webp" alt="">
+                  <h3 class='h2 font-bold mb-sm'> The Benefits of Hiring Bigtime for Online Data Entry</h3>
+                </div>
                 <ul>
                   <li>To ensure that nothing but the finest is supplied to our consumers, our staff offers a quick,
                     accurate, and in-depth service. </li>
@@ -81,7 +84,10 @@
 
             <div class='col-12'>
               <div class='bg-graylight'>
-                <h3 class='h2 font-bold mb-sm'> A competent online data entry service is required in this situation. When you outsource to Bigtime, you cut down on the stress as well as the total expense of the operation, time, and resources that might otherwise drain you.</h3>
+                <div>
+                <img src="./assets/img/services/data/Offline-DataEntry.webp" alt="">
+                  <h3 class='h2 font-bold mb-sm'> A competent online data entry service is required in this situation. When you outsource to Bigtime, you cut down on the stress as well as the total expense of the operation, time, and resources that might otherwise drain you.</h3>
+                </div>
                 <ul>
                   <li>Your web-based or cloud-based software systems' online data entry  </li>
                   <li>Online Product Catalog Data Entry</li>
@@ -115,7 +121,10 @@
 
             <div class='col-12'>
               <div class='bg-graylight'>
-                <h3 class='h2 font-bold mb-sm'> Why Should You Use Bigtime for Offline Data Entry? </h3>
+                <div>
+                <img src="./assets/img/services/data/Online-DataEntry.webp" alt="">
+                  <h3 class='h2 font-bold mb-sm'> Why Should You Use Bigtime for Offline Data Entry? </h3>
+                </div>
                 <ul>
                   <li>Services for offline data entry that are consistently quick, on time, and correct. </li>
                   <li>As a result of our productive and effective work approach, we reduced operational expenses as a result.</li>
@@ -128,7 +137,10 @@
 
             <div class='col-12'>
               <div class='bg-graylight'>
-                <h3 class='h2 font-bold mb-sm'> See our offline data entry services here. </h3>
+                <div>
+                <img src="./assets/img/services/data/Online-DataEntry.webp" alt="">
+                  <h3 class='h2 font-bold mb-sm'> See our offline data entry services here. </h3>
+                </div>
                 <ul>
                   <li>Programs for Database Entry.  </li>
                   <li>Data collection offline.</li>

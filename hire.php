@@ -49,7 +49,10 @@
                         foreach($data as $show){
                             echo "<div class='col-12'>
                             <div class='bg-graylight'>
+                              <div>
+                                <img src='./assets/img/services/Hire/$show->img' alt='broken'>
                                 <h3 class='h2 font-bold mb-sm'><strong>Hire</strong> $show->name</h3>
+                              </div>
                                 <p>$show->para</p>
                             </div>
                         </div>";

@@ -2,7 +2,7 @@
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="rgba(12, 60, 96)"/>
-      <stop offset="1" stop-color="#9fc9dd"/>
+      <stop offset="1" stop-color="#446563"/>
     </linearGradient>
   </defs>
   <rect id="Rectangle_3" data-name="Rectangle 3" width="264" height="523" fill="url(#linear-gradient)"/>

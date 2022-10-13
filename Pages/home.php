@@ -160,28 +160,27 @@
    <div class="box-container">
 
       <div class="box">
-         <i class="fa-solid fa-code"></i>
+         <img src="./assets/img/background/home/frontend.webp" alt="">
          <h3>Front-end</h3>
       </div>
 
       <div class="box">
-         <i class="fa-solid fa-gears"></i>
+      <img src="./assets/img/background/home/backendhome.webp" alt="">
          <h3>Back-end</h3>
       </div>
 
       <div class="box">
-         <i class="fa-solid fa-wrench"></i>
+      <img src="./assets/img/background/home/protocols.webp" alt="">
          <h3>Protocols</h3>
       </div>
 
       <div class="box">
-         <!-- <i class="fa-solid fa-key"></i> -->
-         <i class="fa-solid fa-circle-nodes"></i>
+         <img src="./assets/img/background/home/apihome.webp" alt="">
          <h3>API </h3>
       </div>
 
       <div class="box">
-         <i class="fa-solid fa-laptop-code"></i>
+      <img src="./assets/img/background/home/dataformat.webp" alt="">
          <h3>Data formats </h3>
       </div>
 

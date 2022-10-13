@@ -45,10 +45,6 @@
         padding-bottom: 0
     }
 
-    .default-btn {
-        padding: 8px 25px
-    }
-
     .section-title span {
         font-size: 12px
     }
@@ -892,6 +888,10 @@
         display: grid;
         gap: 1%;
     }
+    .flexcontain .grid .item, .services-details-item{
+        height: auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
@@ -1003,11 +1003,7 @@
         padding-bottom: 0
     }
 
-    .default-btn {
-        padding: 8px 25px
-    }
-
-    .section-title span {
+ .section-title span {
         font-size: 12px
     }
 

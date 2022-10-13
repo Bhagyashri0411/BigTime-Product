@@ -1,30 +1,37 @@
 [
   
     {
+        "img": "Back-end.webp",
      "para":"The design, implementation, functional logic, and performance of systems are areas of expertise for backend developers. Server-side developers assist in creating and maintaining the servers, applications, and databases that make up the website's backend. They make it possible for the website's user-facing portion to exist. The creation of APIs is also the responsibility of backend developers. Their programming expertise includes.NET, Ruby, Java, C++, Python, Scala, and other languages.",
      "name":"Back-end Developer"
     },
     {
+        "img": "Full-Stack.webp",
         "para":"The front-end and back-end work of the programme are both the responsibility of full-stack developers. They possess the expertise required to produce completely working software. Front-end and back-end developers will both contribute to the expertise of full-stack developers.",
         "name":"Full-stack Developer"
     },
     {
+        "img": "Database.webp",
         "para":"An organization's or business's databases are created and managed by a database engineer. This entails planning and creating databases with a specific goal in mind. In addition, the database engineer must install and set up the database. The databases' functionality and security must be ensured by the database engineer. Computer databases are mostly created and implemented by database developers, sometimes referred to as database programmers. They choose the ideal database management system for a particular customer, evaluate the database program's effectiveness and performance, and troubleshoot and fix issues.",
         "name":" Database Developer"
     },
     {
+        "img": "Cloud.webp",
         "para":"The management of the organization's cloud-based systems and procedures falls within the purview of cloud engineers. Setting up the architecture using AWS, Microsoft Azure, Google Cloud, or other cloud providers, as well as controlling access to and security of cloud-based systems, are among the specific duties. A cloud developer is familiar with managed services, cloud-native apps, developer tools, and next-generation databases. A cloud engineer is a professional of the IT industry who is responsible for management of all technical tasks related to cloud computing, including design, planning, administration, maintenance, and support. Several diverse positions fall under the umbrella of cloud engineer, including cloud architect and cloud software engineer.",
         "name":"Cloud Developers"
     },
     {
+        "img": "DevOps.webp",
         "para":"The technology and tools needed to create, deploy, integrate, and maintain backend software are familiar to DevOps developers. To make the term clearer, apps are created by backend developers, although DevOps may also deploy and manage applications. Experience with the following technologies, including the HashiCorp stack, Kubernetes, Docker, Apache Mesos, Jenkins, etc., is required for DevOps.",
         "name":"DevOps Engineer"
     },
     {
+        "img": "Data-Science.webp",
         "para":"Data scientist developers construct applications to examine data sets. They are typically in charge of predictive modeling, machine learning, and statistical analysis. Their knowledge of programming languages (R, Python), numerous efficient techniques, experience with machine learning techniques, knowledge of multivariate calculus and linear algebra, and handling data flaws are all included in their skill set.",
         "name":"Data Science Engineer"
     },
     {
+        "img": "bigdata.webp",
         "para":"To store and access massive volumes of data from systems like relational databases, data lakes, data warehouses, and ETL systems, big data developers create software applications. Most big data developers are familiar with frameworks and platforms for distributed data processing and storage (such as MapReduce, Hadoop, and Spark). SQL, Java, Python, and R are among the languages employed by big data developers.",
         "name":"Big Data Engineer"
     }
